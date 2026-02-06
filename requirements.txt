@@ -1,0 +1,10 @@
+jiwer
+pymupdf
+pdfminer.six
+python-docx
+pytesseract
+Pillow
+tika
+pandas
+pytest
+black

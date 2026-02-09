@@ -1,52 +1,53 @@
-import os
-import subprocess
-import fitz  # PyMuPDF
-from pdfminer.high_level import extract_text as pdfminer_extract_text
-from docx import Document
-from PIL import Image
-import pytesseract
+"""
+parsers.py - minimal in-process parsers.
 
-def extract_text_pymupdf(path):
+Provides a PARSERS dict mapping parser names to functions that accept a path
+and return a string (extracted text).
+
+Requires (only if you use a parser):
+- pymupdf: pip install pymupdf
+- python-docx: pip install python-docx
+- pytesseract + tesseract installed + Pillow: pip install pytesseract Pillow
+"""
+from typing import Callable, Dict
+
+def extract_text_pymupdf(path: str) -> str:
+    try:
+        import fitz  # PyMuPDF
+    except Exception as e:
+        raise ImportError("PyMuPDF required: pip install pymupdf") from e
     doc = fitz.open(path)
-    parts = []
-    for page in doc:
-        parts.append(page.get_text("text"))
-    return "\n".join(parts).strip()
+    pages = []
+    for p in doc:
+        pages.append(p.get_text("text") or "")
+    return "\n".join(pages).strip()
 
-def extract_text_pdfminer(path):
-    return pdfminer_extract_text(path).strip()
-
-def extract_text_pdftotext(path, poppler_path=None):
-    cmd = ["pdftotext", "-layout", path, "-"]
-    env = None
-    if poppler_path:
-        env = os.environ.copy()
-        env["PATH"] = poppler_path + os.pathsep + env.get("PATH", "")
-    proc = subprocess.run(cmd, capture_output=True, env=env)
-    if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.decode("utf8"))
-    return proc.stdout.decode("utf8").strip()
-
-def extract_text_docx(path):
+def extract_text_docx(path: str) -> str:
+    try:
+        from docx import Document
+    except Exception as e:
+        raise ImportError("python-docx required: pip install python-docx") from e
     doc = Document(path)
-    paras = [p.text for p in doc.paragraphs]
-    return "\n".join(paras).strip()
+    return "\n".join(p.text for p in doc.paragraphs).strip()
 
-def extract_text_ocr(path, dpi=200):
+def extract_text_ocr(path: str, dpi: int = 200) -> str:
+    try:
+        import fitz
+        from PIL import Image
+        import pytesseract
+    except Exception as e:
+        raise ImportError("For OCR install: pip install pymupdf Pillow pytesseract and system tesseract") from e
     doc = fitz.open(path)
-    parts = []
+    pages = []
     for page in doc:
-        mat = fitz.Matrix(dpi/72, dpi/72)
-        pix = page.get_pixmap(matrix=mat)
+        mat = fitz.Matrix(dpi / 72.0, dpi / 72.0)
+        pix = page.get_pixmap(matrix=mat, alpha=False)
         img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-        text = pytesseract.image_to_string(img)
-        parts.append(text)
-    return "\n".join(parts).strip()
+        pages.append(pytesseract.image_to_string(img))
+    return "\n".join(pages).strip()
 
-PARSERS = {
+PARSERS: Dict[str, Callable[..., str]] = {
     "pymupdf": extract_text_pymupdf,
-    "pdfminer": extract_text_pdfminer,
-    "pdftotext": extract_text_pdftotext,
-    "ocr": extract_text_ocr,
     "docx": extract_text_docx,
+    "ocr": extract_text_ocr,
 }

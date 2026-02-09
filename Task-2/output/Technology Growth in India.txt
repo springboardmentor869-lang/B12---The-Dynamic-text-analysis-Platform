@@ -1,0 +1,362 @@
+sociological
+review
+polish
+ISSN 1231 – 1413
+2 178 12
+(
+)’
+DURU ARUN KUMAR
+Netaji Subhas Institute of Technology
+Technology Growth in India—Some Important Concerns
+Abstract: Technology has made its presence felt in various sectors of India’s development in the last twenty
+years. Communication and information technology, manufacturing industry, transportation, defence and
+space technologies are some of the important sectors which have incorporated modern technology in var-
+ious aspects of their development and functioning. Also signiﬁcant and visible changes have taken place
+in the consumer products available in the Indian market, most of them imported or locally manufactured
+by multinational corporations based in India. Do these changes qualify India to be considered as a tech-
+nologically advanced country, and thereby making technological changes an integral part of the social
+change process of our society? Or are these developments restricted to certain elitist sections of society
+with little or negligible trickle-down effect of the knowledge bases of the technology developments? In this
+study a deconstructivist approach is adopted to analyse some of the processes involved in development
+and diffusion of technology in a society. With the exception of mobile phone technology it is argued that
+even though India has strong scientiﬁc and technological capabilities, it is emerging as a bigger consumer
+of technology products than as a producer and innovator of modern technology.
+Keywords: technology development, consumer market, mobile phones, education.
+Technology in India
+The Government of India, since its independence from British colonial rulers in 1947,
+has supported and promoted science and technology through its various national poli-
+cies. India was one of the ﬁrst countries to adopt a Science Policy Resolution in 1958,
+which stated, “The key to national prosperity, apart from the spirit of the people,
+lies, in the modern age, in the effective combination of three factors, technology, raw
+materials and capital, of which the ﬁrst is perhaps the most important, since the cre-
+ation and adoption of new scientiﬁc techniques can, in fact, make up for a deﬁciency
+in natural resources, and reduce the demands on capital. But technology can only
+grow out of the study of science and its applications.” As a result of this, a number
+of science and technical educational and research institutes and laboratories were set
+up on government initiative in different parts of India.1 Further, acknowledging the
+widespread core competence and innovation in a number of areas in the country and
+to make India a self dependent and advanced nation, the Technology Policy State-
+ment, 1983 was introduced to give technological development a clear direction for
+the growth of indigenous technology and the acquisition of technology from outside.2
+1 http://www.dst.gov.in/stsysindia/spr1958.htm
+2 http://www.dst.gov.in/stsysindia/sps1983.htm
+296
+DURU ARUN KUMAR
+The Government of India constituted the Technology Development Board (TDB)
+in September 1996, as per the provisions of the Technology Development Board Act,
+1995. The Act enables creation of a Fund for Technology Development and Applica-
+tion to be administered by TDB. The Fund receives grants from the Government of
+India out of the Cess collected by the Government from industrial concerns under the
+provisions of the Research and Development Cess Act, 1986, as amended in 1995.3
+Thus it may be ascertained that there has been a consistent patronage and political
+support for science and technology activities in India. This is also indicated by a huge
+science and technology institutional structure and several programs created under
+various government departments and ministries to promote and support research
+and development in various ﬁelds such as Department of Science and Technology,
+Department of Information Technology, Department of Electronics, Indian Space
+Research Organization and several others.4
+As a result of these sustained efforts through various funding schemes, signiﬁcant
+progress has been made in certain technology sectors, particularly in strategic indus-
+tries such as space sciences,5 nuclear technology, defence technology, aviation and
+information technology. India’s defence research laboratories have successfully de-
+veloped light combat aircraft, ballistic missiles, satellite communications and several
+other technologies of strategic importance.
+Looking at some of the examples mentioned above we notice that, most of these
+developments are in highly specialised and niche areas, with long gestation periods
+and far removed from scope for immediate application for direct public domain, but
+have been internationally acclaimed. These ﬁelds are highly capital intensive and
+depend on continuous government support.
+Another important development has been that of IT and IT enabled services sec-
+tors in India, recognised globally as highly competitive sectors. The IT-ITES industry
+has two major components: IT Services and business process outsourcing (BPO). The
+growth in the service sector in India has been led by the IT-ITES sector, contributing
+substantially to the increase in Gross Domestic Product (GDP), employment, and ex-
+ports. The sector has increased its contribution to India’s GDP from 1.2% in Financial
+Year 1998 to 7.1% in Financial Year 2011.6
+India’s progress in Information and Communication Technologies (ICT) is also
+accompanied by many challenges. There is a perception that the Indian economy
+as a whole has not beneﬁted from the ICT industry because of the high regional
+concentration of ICT activity and low diffusion of ICT to other sectors of the economy.
+A large part of the IT sector is involved in export-oriented services and products. It
+helps provide employment and earns foreign revenue for India but adds limited value
+3 http://www.dst.gov.in/stsysindia/sps1983.htm
+4 http://www.tdb.gov.in/
+5 National Centre for Astrophysics, a centre of the school of natural sciences of the Tata Institute
+of Fundamental Research, has set up a unique facility, the Giant Meterwave Radio Telescope for radio
+astronomical research at metre wavelengths. GMRT is a very versatile instrument for investigating a variety
+of radio astrophysical problems ranging from nearby Solar system to the edge of observable Universe.
+http://gmrt.ncra.tifr.res.in/
+6 http://www.indianembassy.org/indiainfo/india_2000/chapters/chp07.pdf
+TECHNOLOGY GROWTH IN INDIA—SOME IMPORTANT CONCERNS
+297
+addition to India’s technology requirements. The IT and ICT boom is visible only
+in special regions and locations mostly in southern India, and the concentration of
+skilled human resources in the IT and ICT sectors is adversely affecting other sectors
+of the economy.7
+Consumer Market
+In the last few decades India has emerged as a huge consumer market. This can be
+traced to a shift in the economic policy from socialist to market economy to tidy
+over the Balance of Payment crisis in 1991. As a part of the bail out plan under the
+International Monetary Fund, India made certain structural economic reforms. The
+main thrust of the 1991 economic reforms in India was to allow for the operation
+of a free market, where the forces of demand and supply could freely compete and
+the local and the national economy could be integrated into the global economy
+(Kothari 1997). The elaborate structure of licenses, controls and regulations was
+abolished to help increase production, efﬁciency and demand and decrease prices.
+Import restrictions were relaxed and steps were taken toward the liberalization of
+foreign trade and investments, a reduction in custom duties, an increase in incentives
+and policy changes to attract foreign capital. As a result of this there was an upsurge
+in import of mass produced goods in the Indian markets.
+A wide array of products such as foreign cars, televisions, electronics, washing
+machines, air-conditioners, processed foods, perfumes, and other consumer goods,
+became freely available and have become symbolic of new status-conscious Indians.
+Incentive for industrial production has come primarily from these changing demands.
+Thus as pointed by Kothari it is not the availability of essential commodities, improved
+access and control over productive resources, low-cost and decentralized conventional
+and alternative energy sources, but rather products and services that are mostly beyond
+the means of the majority of the low income groups of people.
+Even though a large number of imported consumer products are available in
+the Indian markets, most do not cater to the essential needs requirement of the
+poor people, there is an increasing demand for such products for different reasons.
+There is ‘indigenization’ or ‘domestication’ of the meaning attached to possession
+of these consumer products. It is considered as a symbol of higher status by the
+bourgeoning urban middle class and those aspiring to higher social status. The concept
+of domestication of foreign products and brands has been studied by other scholars
+too. As pointed out by some, even the most ‘global’ brands, such as McDonald’s or
+Coca-Cola, have different cultural connotations and are consumed quite differently
+in different places.8 Arjun Appadurai argues that ‘as rapidly as forces from various
+metropolises are brought into new societies, they tend to become indigenized in
+7 http://www.nasscom.in/indian-itbpo-industry;
+http://www.digital-review.org/uploads/ﬁles/pdf/2009-
+2010/chap-21_india.pdf
+8 Daniel Miller’s (1998) work on consumption practices in Trinidad and Marie Gillespie’s (1995) ethno-
+graphic study of young Punjabis in Southall, West London are some of the examples of this ‘domestication’
+of meaning.
+298
+DURU ARUN KUMAR
+one way or another’ (Appadurai 1996: 32). The following years have seen most of
+the imports and fresh investments in the productive economy oriented not toward
+meeting the basic needs of a majority, but primarily toward satisfying the consumption
+patterns of the elite.
+Besides policies of free market economy adopted by India there has also been
+a preference for imported products as they are believed to be of superior quality than
+the locally manufactured ones. Except where it is entirely unavoidable, as pointed out
+in a vision document, Indian administrators (whether in the public or in the private
+sector) avoid local designs. They consider that well-worn imported designs alone are
+risk free. For instance, it is the ofﬁcial policy in the Department of Telecommunica-
+tions (and in others too) not to procure any equipment unless it has been used for
+a minimum of two years. As a result, Indian designs face a Catch-22 situation: They
+will not be accepted unless they have been in use, and they cannot be in use until they
+are tried out! (Indiresan 2001)
+As a result of the above developments, even though there is a large inﬂux of
+technology products available in Indian markets for a price, it is not clear that they
+play a role in India’s technological capacity building. Do they fulﬁl the technological
+needs of the society at large in a equitable and inclusive manner? We illustrate our
+point by discussing the revolution caused by the introduction of mobile technology in
+India in the last two decades.
+Mobile Phones
+Mobile phones are the ﬁrst form of electronic communication technology to be widely
+used in India. Since mobile networks are cheaper to build than landline networks, and
+communication by phone does not require literacy, mobile phones are now increas-
+ingly adopted in regions with no extensive prior form of communication technology.
+The rate of mobile phone sales in India has been phenomenal ever since the introduc-
+tion of mobile technology in 1995. With a subscriber base of more than 851 million,
+the Mobile telecommunications system in India is the second largest in the world and
+it was thrown open to private players in the 1990s.9 According to the International
+Data Corporation’s Q3 2011 Mobile Phone Tracker release, the Indian Mobile phone
+market grew 12% in units shipped, over the previous quarter, to clock 47.07 million
+units.10 According to a market survey company, mobile user base had increased to
+407 million users by 2011. And interestingly it also claims that there has been higher
+increase in penetration and tele-density in the rural mobile connections compared to
+urban India.11
+Modern media communication technologies have been developed and essentially
+tailored to fulﬁl the needs of the high-income, literate people of the developed coun-
+tries. According to some studies, “…technologies… are a part of a matrix of global
+9 http://en.wikipedia.org/wiki/Communications_in_India
+10 http://www.idc.com/getdoc.jsp?containerId=prIN23230811
+11 http://indiatechonline.com/juxtconsult-india-mobile-phones-study-2011-545.php
+TECHNOLOGY GROWTH IN INDIA—SOME IMPORTANT CONCERNS
+299
+relations that has historically placed the developing world in a derivative relationship”
+(Kavoori and Chaddha 2007: 227). This relationship has been reiterated in earlier his-
+tories, of television, radio, newspaper and the Internet (Kavoori and Chaddha 2001).
+Cell phone is also one of them. Since introduction of mobile phones in the Indian
+market it has found many users for many reasons. As pointed out by these stud-
+ies, a majority of low-income, low-literacy populations have a ﬂuid and temporary
+identity. They lack any form of permanent identiﬁcation and are under the radar of
+governmental and institutional surveillance. For a migrant population, the mobile
+phone could even be their only ﬁxed point of reference. Further it is observed that,
+the so-called emerging market has by-passed technological, physical, educational,
+amongst other barriers to creatively use mobile phones to uplift themselves.
+Mobile telephony like cinema, in an earlier era, seems to be a great social leveller.
+Further, mobile technology probably helps rural farmers decide which market to go
+to sell their produce at the highest possible price. Even in the case of the urban
+poor such as craftsmen—electricians, plumbers etc.—the mobile phone directly gives
+them access to customers. Previously they were dependent on contractors and shop-
+keepers to point them to work. Now they can function independently as free lancers
+and peddle their skills without relying exclusively on contractors and shop-keepers
+who have land lines and were the only means of contact between the craftsman and
+his customer. All this is a direct result of the easy availability of mobile phones. So it is
+not at all surprising that India is emerging as one of the biggest consumers of mobile
+telephony.
+Discussion
+Looking at the various government policy measures with regard to science and tech-
+nology we may argue that a technologically deterministic approach is adopted on the
+belief that based on the developed countries’ model, introduction of science and tech-
+nology institutions can bring about growth of science and technology. Government
+legitimated its policies in terms of the technological imperative. It was implied that
+by supporting important technology areas of research there will be a trickle down
+effect that will eventually lead to technological development of the society at large.
+However the advanced technology efforts have remained conﬁned to areas sponsored
+by government funding and infrastructural support.
+While on the one hand, there are regions in India which are called ’cybercities’
+and ’silicon valleys’ of India with state of the art technology development centres
+in Information Technology (Kalra 2006), on the other hand, a large part of India’s
+population lives in poverty and remains untouched and unaware of these technol-
+ogy achievements. There are several regions which do not have access to electricity,
+potable drinking water and basic health facilities. Provision of these basic facilities
+would probably require a small fraction of the budget spent on the so called so-
+phisticated technology development programmes. How do we reconcile India being
+a technologically advanced nation on the one hand, while on the other, more than
+300
+DURU ARUN KUMAR
+thirty percent of its population lives in poverty with no access to basic amenities for
+a digniﬁed life?
+The consumer markets ruled by free market-forces, have been inundated with
+secondary goods, with a higher proﬁt margin and catering to the middle and upper
+classes of the country. Among these, mobile phones are one of the few imported
+technologies which have found ready acceptance by the rich and the poor alike because
+of its small size, portability, user-friendly features, affordability and most importantly,
+fulﬁlling a need caused by increasing urbanization and migration of people in search
+of livelihood and absence of any reliable and affordable means of communication
+available to people based in underdeveloped parts of India. However a large number
+of mobile phone users in non urban areas use it only for basic communication and
+are not able to use several other features such as text messaging and Internet access
+because literacy rates in these areas is very low. Poor infrastructure and erratic or no
+power supply create other logistics problems. Lack of English language knowledge
+also poses limitations to their optimum use.
+Exploring the complexities in what she calls “schizophrenic India”, Rama Bi-
+japurkar suggests that “the holy grail of the Indian market lies in understanding its
+plurality” (Bijapurkar 2007). India is not one homogenous society, but a collection
+of many different communities deﬁned by language religion and ethnicity, each with
+its distinctive cultural ethos, social pattern, and demography. To be successful in the
+Indian market, it is not sufﬁcient to create ‘no-frills’ cheaper versions of feature-
+rich expensive products but to invest effort in understanding use requirements and
+developing appropriate models (Bijapurkar 2001).
+The current experiences have shown that people who don’t use ICTs are willing to
+accept technology and put in the effort to learn to use it. But for the products to become
+successful, they must be designed to suit the users’ real needs.12 India presents several
+obstacles for widespread adoption of information and communication technologies,
+but perhaps the most persistent problem of all has proved to be the problem of
+text input in Indian languages.13 Computer usage in India has been almost entirely in
+English and is restricted to the English-speaking, upper-class and middle-class people.
+12 International and national standardization bodies such as ISO, UNICODE, World-wide-Web
+consortium (W3C) and BIS (Bureau of Indian Standards) to ensure adequate representation of
+(http://tdil.mit.gov.in/) Technology Development for Indian Languages (TDIL) Programme initiated by
+the Department of Electronics & Information Technology (DEIT), Ministry of Communication
+13 Technology Development for Indian Languages (TDIL) Programme initiated by the Department of
+Electronics & Information Technology (DEIT), Ministry of Communication & Information Technology
+(MC&IT), Govt. of India has the objective of developing Information Processing Tools and Techniques to
+facilitate human-machine interaction without language barrier; creating and accessing multilingual knowl-
+edge resources; and integrating them to develop innovative user products and services. The Programme also
+promotes Language Technology standardization through active participation in & Information Technology
+(MC&IT), Govt. of India has the objective of developing Information Processing Tools and Techniques to
+facilitate human-machine interaction without language barrier; creating and accessing multilingual knowl-
+edge resources; and integrating them to develop innovative user products and services. The Programme
+also promotes Language Technology standardization through active participation in International and
+national standardization bodies such as ISO, UNICODE, World-wide-Web consortium (W3C) and BIS
+(Bureau of Indian Standards) to ensure adequate representation of Indian languages in existing and future
+language technology standards (http://tdil.mit.gov.in/).
+TECHNOLOGY GROWTH IN INDIA—SOME IMPORTANT CONCERNS
+301
+Mobile phones have recently proved to be an exception to this rule, with a signiﬁcant
+number of models becoming available in Indian languages, however text entry in
+Indian languages continues to be a rare phenomenon.
+Important sectors such as manufacturing technologies, infrastructure develop-
+ment, electronics and power generation industry have made signiﬁcant progress with
+regard to scale of production, quality and competitiveness, but the most frequently
+voiced concerns relate to lack of skilled manpower and poor infrastructure, specially,
+power shortages in the country, as important limiting factors in their progress.
+As of 2011, there are 1522 degree-granting engineering colleges in India with an
+annual student intake of 582,000, plus 1,244 polytechnics with an annual intake of
+265,000. However, these institutions face shortage of faculty and concerns have been
+raised over the quality of education14 (Mitra 2008).
+According to industry estimates “only a quarter of all graduates are employable
+and about 80% of job seekers in employment exchanges are without any professional
+skills. India is suffering from a massive shortage of skilled manpower” (Duggal 2005).
+But employability here refers to the management skills in marketing, ﬁnance and
+operations, and not technology and engineering skills, as is apparent from this report
+which pointed out, “Businesses in India have started spreading their tentacles in
+towns, cities and semi urban areas in search of newer markets. These are seen as
+future markets for telecommunications, FMCG and retail sector among others. As
+companies expand their operations, they are not ﬁnding enough trained people to ﬁt
+into different positions” (Duggal 2005). Further it reports, “Retail, insurance, ﬁnance
+industry are booming. The recently released KPMG report on retailing in the country
+titled as ‘Consumer Markets in India, the next big thing?’ has revealed that plans are
+up for at least 150 new shopping malls by 2008. Also, the number of department stores
+has been growing at 24% annually. Such growth would again aggravate the demand
+for trained man power in organised sectors dramatically.”
+Following the services sector concentration, consumer services have been a focus
+area for the Business schools which include ﬁnancial, banking, retail, consulting,
+telecom, InfoTech etc.
+Because of the increase in the jobs available in the service sector many young
+engineering graduates prefer to join non technical service oriented and managerial
+jobs. As a result of this manufacturing industries and other technology sectors are
+not able to get technically qualiﬁed manpower. More than 90% of the engineering
+graduates prefer to join management professions (Arun-Kumar 2008).
+How does this state of affairs impact the technology development in India? On the
+one hand we have a large infrastructure to support science and technology education
+and research activities. We also have an ever increasing demand for growth of various
+industrial sectors. But on the other hand, there is a steady decline of a willing and
+technically qualiﬁed manpower because of preference for lucrative jobs in the service
+sector. This problem is further compounded by the poor quality of technical and engi-
+neering education in many privately funded engineering colleges due to lack of good
+14 SPECIAL REPORT: THE EDUCATION RACE, by Newsweek, August 18–25, 2011 issue.
+302
+DURU ARUN KUMAR
+teaching faculties and infrastructural support. At the same time due to increasing in-
+vestment in the market economy the demand for the service sector and management
+professional has increased manyfold with the corresponding disenchantment with the
+core technical jobs. Science and technology qualiﬁed manpower forms the backbone
+of this sector. In the absence of this it may be challenging for India to sustain a broad
+based technological development, and subsequently to become an integral part of
+social change. This needs to be explored further with respect to different technology
+sectors in India with the help of empirical studies.
+References
+A r u n - K u m a r, Duru. 2008. “Impact of Globalization on Core Engineering Education in India,” Per-
+spectives in Global Development and Technology, Volume 7, no. 1: 55–68.
+A p p a d u r a i, Ahmad. 1996. Modernity at Large: Cultural Dimensions of Globalization. Minneapolis: Uni-
+versity of Minnesota Press.
+A p p a d u r a i, Ahmad and B r e c k e n r i d g e, C. A. 1995. “Public modernity in India,” in: C. A. Brecken-
+ridge (ed.), Consuming Modernity: Public Culture in a South Asian World. Minneapolis: University
+of Minnesota Press, pp. 1–20.
+B i j a p u r k a r, Rama. 2001. “New Markets, New Rules,” Business World, 30th July.
+B i j a p u r k a r, Rama. 2007. We Are Like that Only. India: Penguin Books.
+D u g g a l, Sanjeev. 2005. “Is lack of talent pool affecting India Inc’s growth? ‘India is suffering from
+a real shortage of manpower’,” Posted online: Friday, November 04, 2005, The Financial Express
+(http://www.ﬁnancialexpress.com/old/fe_full_story.php, content_id=107542).
+G i l l e s p i e, Marie. 1995. Television, Ethnicity and Cultural Change. New York: Routledge.
+I n d i r e s a n, P. V. 2001. “Technology Policy in a vision for the Future,” http://planningcommission.nic.in/
+reports/sereport/ser/vision2025/tech.pdf (accessed 23.5.2012).
+J a c k s o n, Peter. 2004. “Local Consumption Cultures in a Globalizing World,” Transactions of Institute of
+British Geography, NS 29: 165–178.
+J o s h i, Anirudha [et al.]. 2008. “Rangoli: A Visual Phonebook for Low-literate Users” [Conference] //
+Mobile HCI 2008.
+K a l r a, R., 2006, “High Technology and Urban Development in Bangalore,” GeoJournal Library, Vol-
+ume 86: 71–81.
+K a v o o r i, Anandan and K a l y a n i, Chaddha. 2007. “Cell Phones as a Cultural Technology, Lessons from
+the Indian Case,” in: A. Kavoori and N. Arceneaux, The Cell Phone Reader, Langenscheidt Pub.
+Group.
+K o t h a r i, Smitu. 1997. “Whose Independence? The Social Impact of Economic Reform in India,” Journal
+of International Affairs 51.1: 85. Global Issues In Context. Web. 4 Feb. 2012.
+K u m a r, Anshuman Holambe et al. 2011. “Saral: Devanagari Text Input System in Mobile Phones,”
+E-Book, Freetechbooks.com.
+M a n z a r, Osama and K a z i, Syed S. 2009–2010, in: India, Digital Review of Asia Paciﬁc. India: Sage
+Publications, pp. 192–200.
+M i l l e r, D. 1998. “Coca-Cola: A Black Sweet Drink from Trinidad,” in D. Miller (ed.), Material Cultures:
+Why Some Things Matter. London: UCL Press, pp. 169–87.
+M i t r a, Sramana, 2008. “How To Save The World’s Back Ofﬁce,” Forbes, 03.14.08.
+Biographical Note: Duru Arun Kumar is a faculty in Sociology of Science (Ph.D) at Netaji Subhas Institute
+of Technology, New Delhi, India. Her areas of interest are Higher Technical Education, Globalization, and
+Science and Technology Research.
+Address: Netaji Subhas Institute of Technology, New Delhi, India; E-mail: duruarun@rediffmail.com

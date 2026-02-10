@@ -1,0 +1,8 @@
+ABSTRACT
+
+Smart Battery Monitoring systems are designed to enhance the safety, reliability, and efficiency of batteries, particularly in electric vehicles (EVs), by providing accurate real-time insights into their condition and performance. This project focuses on the integration of Artificial Intelligence (AI) with Digital Twin (DT) technology to predict two critical battery parameters: State of Charge (SoC) and State of Health (SoH). Digital Twins act as virtual replicas of physical batteries, enabling continuous simulation and analysis under varying operating conditions. The study uses the NASA lithium-ion battery dataset and develops predictive models using Deep Neural Networks (DNN) and Long Short-Term Memory (LSTM) networks for accurate state estimation. To address the challenge of AI’s “black box” nature, Explainable AI (XAI) methods such as SHAP, LIME, and surrogate models are applied to interpret predictions and improve trustworthiness. Results show that the LSTM-based DT model outperforms in SoC prediction, while the DNN-based DT model delivers higher accuracy in SoH estimation. The combination of AI, DT, and XAI not only improves prediction accuracy but also enhances transparency, enabling better decision-making, extended battery lifespan, and improved safety in EV battery management.
+
+
+Guided By	Submitted By
+
+Prof. Sajinsha.N	Nazrin.S

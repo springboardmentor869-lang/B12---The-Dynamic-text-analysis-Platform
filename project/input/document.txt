@@ -1,0 +1,7 @@
+Artificial Intelligence (AI) is one of the most transformative technologies of the 21st century. It enables machines to simulate human intelligence, including learning, problem-solving, and decision-making.
+
+Machine Learning is a key branch of AI that allows systems to learn from data without explicit programming. It is widely used in recommendation systems, fraud detection, and predictive analytics.
+
+Deep Learning, a subset of Machine Learning, uses neural networks to recognize complex patterns. It powers applications such as image recognition, voice assistants, and autonomous vehicles.
+
+AI has significant applications in healthcare, finance, education, and agriculture. However, it also raises concerns about job displacement, data privacy, and bias. With responsible development and ethical guidelines, AI has the potential to drive innovation and global progress.

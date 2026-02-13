@@ -8,3 +8,9 @@ tika
 pandas
 pytest
 black
+
+nltk
+spacy
+
+requests
+python-dotenv

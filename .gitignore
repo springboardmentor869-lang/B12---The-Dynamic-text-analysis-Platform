@@ -2,6 +2,7 @@
 .venv/
 env/
 venv/
+*.env
 
 # Python caches / bytecode
 __pycache__/
@@ -16,7 +17,3 @@ en_core_web_sm/
 # Project data
 results/
 data/
-
-# Local environment/config
-.env
-*.env

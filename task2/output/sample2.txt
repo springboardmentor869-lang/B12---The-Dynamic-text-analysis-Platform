@@ -1,0 +1,1225 @@
+Introduction
+Methodology can be one of the most challenging aspects for doctoral researchers. When we conduct research into
+education and/or technology, we can be confronted with a potentially confusing array of options. This is true even for
+thoseusing a well-established approach, but can be especially acute if combining approaches in a mixed-methods study
+or trying to develop a completely new way of doing research. It can also be hard to raise concerns about methods with
+supervisors and/or peers. There can be a strong sense that, by the time you are a doctoral scholar, this is something
+you should have mastered. After all, haven’t you been learning about your chosen field for a long time by now? Not
+feeling confident about research methods can be a route to the dreaded ‘imposter syndrome’. Arguably, methodology is
+an instance where we should never feel too comfortable, because we would no longer be critically engaging with those
+aspects of research that convey and ensure the validity and trustworthiness of the conclusions we draw. Depending
+on our research interests we might want to explore phenomena “horizontally” across a large quantitative dataset,
+or “vertically” by generating qualitative descriptions of particular cases. Choosing the right method for what we are
+interested in is a key part of high quality research, and this requires us to think about the scientific and philosophical
+foundations of what we do.
+In this guide we explore some of these issues with a focus on open research, drawing on insights from researchers
+within the Global OER Graduate Network (GO-GN). Open practices in research can challenge assumptions about how
+to
+create and share new knowledge. In this handbook, we draw on insights from experienced open researchers to build
+understanding of research in the open. The advice given applies to all research, but is of particular relevance to those
+interested in open approaches.
+It can also be hard to raise concerns about methods with supervisors and/or peers. There can be a strong sense that,
+by the time you are a doctoral scholar, this is something you should have mastered. After all, haven’t you been learning
+about your chosen field for a long time by now? Not feeling confident about research
+methods can be a route to the dreaded ‘imposter syndrome’. Arguably, methodology is an instance where we should
+never feel too comfortable, because we would no longer be critically engaging with those aspects of research that
+convey and ensure the validity and trustworthiness of the conclusions we draw. Depending on our research interests
+we might want to explore phenomena “horizontally” across a large quantitative dataset, or “vertically” by generating
+qualitative descriptions of particular cases. Choosing the right method for what we
+are interested in is a key part of high quality research, and this requires us to think about the scientific and philosophical
+foundations of what we do. In this guide we explore some of these issues with a focus on open research, drawing on
+insights from researchers within the Global OER Graduate Network (GO-GN). Open practices in research can challenge
+assumptions about how to create and share new knowledge. In this handbook, we draw on insights from experienced
+open researchers to build understanding of research in the open. The advice given applies to all research, but is of
+particular relevance to those interested in open approaches.
+GO-GN is a network of PhD candidates around the world whose research projects include a focus on open education.
+These doctoral researchers are at the core of the network; around them, over two hundred experts, supervisors,
+mentors and interested parties connect to form a community of practice that:
+• Raises the profile of research into open education
+• Offers support for those conducting PhD research in this area
+• Develops openness as a process of research
+GO-GN is currently funded through the OER programme of The William and Flora Hewlett Foundation and administered
+by the Open Education Research Hub from the Institute of Educational Technology at The Open University, UK.
+Introduction | ix
+PART II
+RESEARCH PARADIGMS
+A lot of effort can be spent refining and calibrating a research question to fully understand what kind of data could
+be collected and what kind of validity analysis might offer when answering the question. Researchers rarely proceed by
+choosing an ontology, epistemology and axiology separately and then deciding which research method to apply. Instead,
+the starting point will usually be a research question framed within a particular paradigm. It’s also common in practice
+for researchers to identify the method they will use (perhaps determined by the data that is available) and then articulate
+the theoretical justification behind it by drawing on a paradigm.
+Kuhn’s (1962) The Structure of Scientific Revolutions is one of the most influential works on the philosophy of
+science, and is credited with introducing the idea of competing paradigms (or “disciplinary matrices”) in research. Kuhn
+investigated the,way that scientific practices evolve over time, arguing that we don’t have a simple,progression from
+“less knowledge” to “more knowledge” because the way that we,approach inquiry is changing over time. This can happen
+gradually, but results in,moments of change where our understanding of a phenomenon changes more,radically (such as
+in the transition from Newtonian to Einsteinian physics; or from,Lamarckian to Darwinian theories of evolution).
+There are four stages in the cycle of science in Kuhn’s approach. Firstly, a pre-paradigmatic state where competing
+approaches share no consensus. Secondly, the “normal” state where there is wide acceptance of a particular set
+of methods and assumptions. Thirdly, a state of crisis where anomalies that cannot be solved within the existing
+paradigm emerge and competing theories to address them follow. Fourthly, a revolutionary phase where some new
+paradigmatic approach becomes dominant and supplants the old. Schnieder (2009) suggests that the Kuhnian phases
+are characterised by different kinds of scientific activity.
+Newer approaches often build upon rather than replace older ones, but they also overlap and can exist within a
+state of competition. Scientists working within a particular paradigm often share methods, assumptions and values.
+In addition to supporting specific methods, research paradigms also influence things like the ambition and nature of
+research, the researcher-participant relationship and how the role of the researcher is understood.
+For studies that look into paradigmatic change within open education research, see Bozkurt (2019) and Weller et al.
+(2018). Next we will go on to look at methods associated with different research paradigms.
+Research Paradigms | 7
+Positivism/Post Positivism
+Positivism has its roots in the scientific revolution of the Enlightenment. Positivism is based on the idea that we can
+come to know facts about the natural world through our experiences of it. The processes that support this are the logical
+and analytic classification and systemisation of these experiences. Through this process of empirical analysis, Positivists
+aim to arrive at descriptions of law-like relationships and mechanisms that govern the world we experience.
+Positivists have traditionally claimed that the only authentic knowledge we have of the world is empirical and
+scientific. This was partly a response to the historical primacy of metaphysics as a way to explain the world. Essentially,
+Positivism downplays any gap between our experiences of the world and the way the world really is and takes it
+that we determine objective “facts” through the correct methodological combination of observation and analysis. Data
+collection methods typically include quantitative measurement, which is supposed to overcome the individual biases of
+the researcher.
+Positivism aspires to high standards of validity and reliability supported by evidence, and has been applied extensively
+in both physical and social sciences. The advantage of such approaches lies in an iteratively expanding evidence base,
+and a deep epistemological separation between “the knower” and “what is known” which supports the idea that what
+has been discovered is “true” and not just the opinion of a researcher. However, the criticism often made of Positivism
+with regard to human and social sciences (e.g. education, psychology, sociology) is that Positivism is scientistic; which is
+to say that in pursuit of “hard” science it fails to recognise that many aspects of human experience don’t conform to this
+way of collecting data. Similarly, it’s hard to guarantee that research design is ever completely free from human bias.
+Kivunja & Kuyini (2017) describe the essential features of Positivism as:
+• A belief that theory is universal and law-like generalisations can be made across contexts
+• The assumption that context is not important
+• The belief that truth or knowledge is ‘out there to be discovered’ by research
+• The belief that cause and effect are distinguishable and analytically separable
+• The belief that results of inquiry can be quantified
+• The belief that theory can be used to predict and to control outcomes
+• The belief that research should follow the Scientific Method of investigation
+• Rests on formulation and testing of hypotheses
+• Employs empirical or analytical approaches
+• Pursues an objective search for facts
+• Believes in ability to observe knowledge
+• The researcher’s ultimate aim is to establish a comprehensive universal theory, to account for human and social
+behaviour
+• Application of the scientific method
+Many quantitative researchers now identify as Post-Positivist. Post-Positivism retains the idea that truth should be
+considered objective, but asserts that our experiences of such truths are necessarily imperfect because they are
+ameliorated by our values and experiences. Post-Positivists are more likely to use mixed methods and triangulation
+of quantitative and qualitative data, accepting the problematic nature of “objective” truths. A popular form of Post-
+Positivism is Critical Realism, which lies between Positivism and Interpretivism.
+Positivist Methods: Document coding; Experimental & Quasi-experimental design; Isolating & measuring variables;
+Statistical analysis; Structured interviews; Surveys
+Positivism/Post Positivism | 11
+Interpretivism
+Often contrasted with Positivism is Interpretivism. The starting point for Interpretivism – which is sometimes called
+Anti-Positivism – is that knowledge in the human and social sciences cannot conform to the model of natural science
+because there are features of human experience that cannot objectively be “known”. This might include emotions;
+understandings; values; feelings; subjectivities; socio-cultural factors; historical influence; and other meaningful aspects
+of human being. Instead of finding “truth” the Interpretivist aims to generate understanding and often adopts a relativist
+position.
+Qualitative methods are preferred as ways to investigate these phenomena. Data collected might be unstructured (or
+“messy”) and correspondingly a range of techniques for approaching data collection have been developed. Interpretivism
+acknowledges that it is impossible to remove cultural and individual influence from research, often instead making a
+virtue of the positionality of the researcher and the socio-cultural context of a study.
+One key consideration here is the purported validity of qualitative research. Interpretivism tends to emphasize the
+subjective over the objective. If the starting point for an investigation is that we can’t fully and objectively know the
+world, how can we do research into this without everything being a matter of opinion? Essentially Positivism and
+Interpretivism retain different ontologies and epistemologies with contrasting notions of rigour and validity (in the
+broadest rather than statistical sense). Interpretivist research often embraces a relativist
+epistemology, bringing together different perspectives in search of an overall understanding or narrative.
+Kivunja & Kuyini (2017) describe the essential features of Interpretivism as:
+• The admission that the social world cannot be understood from the standpoint of an individual
+• The belief that realities are multiple and socially constructed
+• The acceptance that there is inevitable interaction between the researcher and his or her research participants
+• The acceptance that context is vital for knowledge and knowing.
+• The belief that knowledge is created by the findings, can be value laden and the values need to be made explicit
+• The need to understand the individual rather than universal laws
+• The belief that causes and effects are mutually interdependent
+• The belief that contextual factors need to be taken into consideration in any systematic pursuit of understanding
+Interpretivism as a research paradigm is often accompanied by Constructivism as an ontological and epistemological
+grounding. Many learning theories emphasize Constructivism as an organising principle, and Constructivism often
+underlies aspects of educational research.
+Interpretivist Methods: Case Studies; Conversational analysis; Delphi; Description; Document analysis; Interviews;
+Focus Groups; Grounded theory; Phenomenography; Phenomenology; Thematic analysis
+[INSERT Figure 2]
+methodological aspects of Positivism and Interpretivism.
+Positivism Interpretivism
+Ontology
+Being in the world Direct access (Naturalism) Indirect access (Idealism)
+Reality Objective, accessible Subjectively experienced
+Epistemology
+Relation between knowledge
+and reality
+Objective knowledge of the
+world is possible supported by
+appropriate method
+12 | Interpretivism
+Objective knowledge of the
+world is possible supported by
+appropriate method
+Epistemological goals Generalisation, abstraction,
+discovery of law-like
+relationships
+Knowledge of specific,
+concrete cases and examples
+Basic approach Hypothesis formation and
+testing
+Describing and seeking to
+understand phenomena in
+context
+Methodology
+Focus Description and explanation Understanding and
+interpretation
+Research Perspective Detached, objective Embedded in the phenomena
+under investigation
+Role of emotions Strict separation between the
+cognitions and feeling of the
+researchers
+Emotional response can be
+part of coming to
+understanding
+Limits of researcher influence Discovery of external,
+objective reality – minimal
+influence
+Object of study is potentially
+influenced by the activity of
+the researcher
+Valued approaches Consistency, clarity,
+reproducibility, rationality, lack
+of bias
+Insight, appreciation of context
+and prior understanding
+Fact/value distinction Clear distinction between facts
+and values
+Distinction is less rigid,
+acknowledges entanglement
+Archetypal research methods Quantitative
+(e.g. statistical analysis)
+Qualitative
+(e.g. case study)
+Figure 2. Ontology, Epistemology and Methodology across Positivism and Interpretivism
+(adapted from Carson et al., 2001)
+Interpretivism | 13
+Critical / Transformational
+This paradigm is most closely associated with the intellectual history that includes Critical Theory, Marxism,
+Feminism, Critical Pedagogy, and Critical Realism. Within
+critical approaches, axiology, positionality and values are foregrounded. In contrast with the detached, “objective”
+observations associated with the positivist researcher, critical approaches make explicit the intention for research to
+act as a transformative or emancipatory force at a social level. This might involve the way a research project is framed
+(for instance, as motivated by an interest in social justice) or the kind of data that is collected (e.g. metrics on age,
+gender, sexuality, or race that can be used to illuminate inequality). Methods used by critical researchers are often
+interdisciplinary, combining Positivist and Interpretivist techniques to describe contextual and historical factors. In
+addition, there are some methods which belong distinctively to the critical paradigm (see below).
+Critical Methods: Action research; Critical ethnology; Deconstruction; Dialectics; Field research; Textual analysis
+14 | Critical / Transformational
+Causal Comparative (Explain
+variation, regression based)
+Correlation Based
+(Relation between variables)
+Data Mining & Analytics
+Experimental &
+Non-experimental
+Longitudinal Analysis
+Meta-Analysis
+Random Controlled Trials
+Quasi-experimental
+Survey
+Convergent Parallel
+Embedded Design
+Explanatory Sequential
+Exploratory Sequential
+Interdisciplinary
+Multidisciplinary
+Multiphase
+Transformative
+Mixed Methods
+Survey
+Action Research
+Case Study
+Cognitive Interviews
+Content Analysis
+Design-Based Research
+Ethnography
+Grounded Theory
+Historical
+Iterative Design
+Meta-synthesis
+Narrative
+Phenomenology
+Survey
+Figure 3. The Spectrum of Research Approaches and Paradigmatic Research Methods
+Moving from a research paradigm to a specific research design can be a challenging process. In practice, research
+projects will often involve striking a balance between different elements of data collection and synthesis. It’s also
+important to ensure that the approach taken reflects the research question.
+See Ryan (2018) and Pham (2018) for more on the advantages and disadvantages of different paradigms.
+16 | Pragmatism
+Devise idea
+Use of blogs, social media etc can be useful to test out ideas and get early feedback. Also can conduct lightweight pilot
+studies, surveys and find possible collaborations. We developed an Open research agenda through this method.
+Situate in field
+Open access has been one of the great successes of open research, it means researchers can have access to literature
+you might not otherwise. Use of open data can also be useful to test viability. A search through openly available research
+bids can be productive.
+Choose appropriate method
+New methods based on open approaches are available such as crowdsourcing, data visualisation, or network analysis.
+There may be different ways to approach the problem than the traditional ones. For example, Weller et al. (2018) used
+citation analysis to produce an Open Education Guide. Creswell (2014) provides simple criteria for selecting a research
+approach, based on problems and questions, research experiences, and audience.
+Conduct research
+The concept of “guerrilla research” (Weller, 2013) begins from the idea that there is lots of free, open material which
+means it is possible to conduct “lightweight” research without permission. This is often smaller scale work that can be
+undertaken by an individual, it effectively condenses the whole research cycle: researcher has the idea, finds open data,
+undertakes some analysis, then blogs it: all without the need for funding or permission. When doing this kind of research
+it’s important to maintain standards in research ethics.
+An open approach which communicates through social media throughout the process can raise profile and lead to
+collaboration. Katy Jordan’s work with MOOC completion rates was done using open data, which she blogged and
+visualised using open tools. This was picked up in the USA and led to an invite from Gates Foundation to bid for further
+work (Jordan, 2017).
+Disseminate
+Disseminating work via open access brings greater visibility, citations and downloads “open access citation advantage”.
+But beyond this there are other approaches to dissemination, including blogs, social media and video to get across
+messages. Development of other outputs beyond the traditional papers, such as infographics, MOOCs, and open tools.
+The Open Education Research Hub developed an Open Researcher Pack and Open Researcher Handbook as an output
+to be used by open researchers to increase capacity.
+• Farrow, R., Perryman, L.-A., de los Arcos, B., Weller, M. & Pitt, R. (2016). OER Hub Researcher Pack – a toolkit for
+open education researchers. Open Education Research Hub. https://oerhub.pressbooks.com/
+22 | Open Research Cycles
+Ethical Issues
+If you are doing research within an institution there will be regulations and guidelines to follow to ensure that
+your work meets required ethical standards. The standards are usually set by a local body (e.g. an ethics committee
+or Institutional Review Board) to meet generally accepted guidelines. Conforming to their guidelines is usually an
+institutional requirement, but it is also good practice. Even if you are doing research without an institutional affiliation
+it’s a good idea to meet these standards. For instance, CITI certification is a USA standard for conducting human subject
+research: (https://about.citiprogram.org/en/homepage/).
+Since it can take several months to get formal ethical approval for a project, it’s essential to start the process as soon
+as possible so this does not impact on your data collection schedule. Auditing the ethical aspects of a project can also be
+a useful way of refining your research and anticipating issues that could arise downstream.
+• See Farrow (2016) for an overview of research ethics in open education
+• Consider taking the research ethics training offered by your local institution, or by the National Institutes of
+Health (USA) https://ethics.od.nih.gov/training.htm
+You can also approach members of the GO-GN team and wider network for adviceon dealing with ethical issues or other
+matters that arise.
+Ethical Issues | 31
+Managing Risk
+Risk is part of all kinds of activities. Doing research carries risks characteristic of all projects which require adequate
+time, money and quality in the final product. Some of these overlap with ethical issues, such as ensuring that people
+who participate in your research aren’t exposed to unnecessary harm and ensuring that consent is informed. These
+are usually addressed when writing the protocols for a study and included in IRB or ethics committee applications,
+who will often want to see an ethics plan and copies of the proposed research instruments. Ethical considerations
+are foregrounded since minimising the risk to people is the most important mitigation. Aside from these, there are
+interrelated operational issues to consider throughout the research lifecycle.
+• Costs: For a lot of doctoral researchers making sure they have adequate funding throughout can be a challenge.
+This can be a matter of a grant not covering all of the activities required for a project; or can result from
+overrunning in time. Failure to correctly estimate costs when you start a project can lead to problems
+downstream. Managing the financial aspects is a key element in successful projects.
+• Time: It’s common for people writing PhDs or EdDs to feel the pressure of time, especially if they have to balance
+their studies alongside personal and professional commitments. Doctoral study also involves more self-regulation
+than other degrees. Managing your time and finding ways of being productive when you need to are important
+skills for researchers.
+• Scope: Doctoral projects can start with a well defined research question but, as the literature is reviewed, the
+essence of the project begins to evolve. This is no bad thing as it shows that the ideas and concepts are being
+developed, but if the definition of the project starts to change then care must be taken to ensure that it can still be
+delivered with the resources available.
+• Quality: Quality refers to the standard of the work being delivered, and is to some extent dependent on the other
+factors. At a practical level, the most important quality consideration is convincing your examiners that you meet
+your institutional requirements for the award of a doctorate.
+At its most general level, risk management is about anticipating problems before they arise and adapting to unforeseen
+situations. What happens if things don’t go as anticipated? You might lose access to a data source that you were relying
+on. Do you have a plan B? Plan C? What happens if you fall ill and are unable to work on your project? When focused on
+the academic parts of a project it can be easy to overlook these kinds of considerations.
+Ideas for risk mitigation:
+• A better research design can mitigate more risk, or build in more contingency.
+• Practising agile approaches develops the ability to adapt to changing circumstances while maintaining overall
+vision.
+• Writing a log of risks and their mitigation as a project is underway to record further issues that arise so you can get
+better at anticipating and solving problems.
+32 | Managing Risk
+Using Technologies
+Many modern research techniques use specific software programs to support the process of analysis. Some of these
+are listed in the table below along with examples of software commonly used in different parts of the research cycle.
+This table is intended to be illustrative, not exhaustive or exemplary. There are many hundreds of software options
+available to researchers, and different packages can appeal for different reasons (such as licensing, relevant to task, user
+interface, versatility, etc.)
+Purpose Categories Examples
+Search & Discovery Search Engines Duck Duck Go
+Firefox
+Google
+Google Scholar Alerts
+Internet Explorer
+RSS
+Bibliographic Search Google Scholar
+Subject-specific databases
+(e.g. EBSCO, JSTOR, etc.)
+Data Collection Google Forms
+SurveyMonkey
+Data Analysis Statistical Microsoft Excel
+SPSS
+Stata
+R
+Qualitative Data Analysis
+(CAQDAS)
+ATLAS.ti
+Coding Analysis Toolkit (CAT)
+Dedoose
+MAXQDA
+NVivo
+qcoder
+Data Visualization Blender
+Datawrapper
+QGIS
+Shiny
+Tableau
+Reference Management Endnote
+Mendeley
+RefWorks
+Zotero
+Manuscript Preparation Word processor Google Docs
+LateX
+Libre Office
+Microsoft Word
+OpenOffice
+Dissemination Academic Social Networks Academia.edu
+Using Technologies | 33
+Google Scholar
+Mendeley
+ResearchGate
+Presentations Google Slides
+Microsoft PowerPoint
+Prezi
+Figure 7. Examples of software used in parts of the research lifecycle
+Having to learn how to use new software can be intimidating, and time may need to be set aside for this. Sometimes
+it’s worth undertaking some formal training in the use of software (particularly for data analysis). Effective technology
+enhanced workflows can make research more efficient as well as enhancing the agency and reach of the researcher.
+34 | Using Technologies
+that I was on the right path. When these data disagreed, I returned to the literature, and method descriptions
+to develop explanations and further refine my contexts and the contexts of my participants. Action research
+(similar to design based research) is grounded in practice and the design of experiences. It is personal and
+contextual and is therefore impossible to describe as objective or replicable. It is often used by educators to
+examine and improve some element of their teaching practice or the systems in which they work.”
+Francisco Iniesto used action research within a Person-Centred Planning (PCP) perspective, designed to empower
+disabled learners to make their own choices and decisions by placing the individual at the centre of the planning process
+for improving accessibility in MOOCs:
+“Learners were a useful source of data to explore the accessibility barriers and their solutions in using the
+technology and the learning designs they come up against when interacting with MOOCs. The data from the
+interviews helped to understand their motivations, the current accessibility barriers they have found, how they
+reacted to them, and their suggestions for desired solutions”.
+Useful references for Action Research: Caruth (2018); Danermark et al. (2002); Freire (1994); Heron & Reason (1997);
+Ivankova (2015); Kemmis, McTaggart & Nixon (2013); Lewis & Sanderson (2011); Mertler (2014); Smith (1999). Warschauer
+(2003); Whyte, Greenwood & Lazes (1991)
+42 | Action Research and Participatory Action Research
+Case Study
+A Case Study is a research method involving a detailed examination and in-depth description of a particular empirical
+case. This can be done in many different ways, and the unit of analysis can vary (a person, an institution, a country, etc.).
+Case Studies can include both quantitative and qualitative evidence (Stake, 1995) and typically rely on bringing together
+many different articles of evidence from various sources to illuminate the case as a whole.
+Case Studies benefit from having a developed theoretical framework before data collection begins (Yin, 2003). At the
+same time, the Case Study approach allows flexibility and can be used in exploratory contexts. This can be attractive
+to the researcher because it allows data collection to begin immediately (though there remains a need to impose a
+theoretical structure in the analysis phase). Consequently, Case Studies can be conducted at different levels of formality
+and replicability (Hetherington, 2013).
+The case study research design can be used to test whether theories and models work in real contexts of application
+(Shuttleworth, 2008) and, conversely, to generate hypotheses and theories.
+Case Study: GO-GN Insights
+Sarah Hutton used a hermeneutic phenomenological case study to illuminate a direct connection between
+undergraduate student participation in courses with a participatory OER authorship or open access publishing of
+student artefacts model, to the development of internal goals and deepened engagement:
+“Participatory OER development and an open pedagogical model provide the potential for students to have
+autonomous control over the development of course content, fostering greater intrinsic motivation, and
+therefore more successful and transferable learning outcomes. The resulting analysis creates a compelling case
+for the adoption of OER materials beyond the affordability argument, further advocating for the engagement of
+students in open scholarship at the undergraduate level.”
+Viviane Vladimirschi explored evidence-based guidelines in the context of Teacher Professional Development (TPD) for
+Brazilian fundamental education public school teachers by undertaking an intervention in one school. The main goal of
+the OER Development Program was to raise awareness and build teachers’ knowledge
+regarding OER adoption and use:
+“The case study methodology used in this research is a very common approach within Educational Studies. It
+is also a fairly easy method to use and the analysis of multiple sources of data have the potential to not only
+generate new insights throughout the case study but also generate new theory. Theory-building is very well-
+suited to new research areas, which was the case of this research. However, there are some disadvantages to
+using this methodology. First, it is not possible to generalize the findings from a single case study. Second,
+achieving the balance between producing an overly complex theory or a narrow idiosyncratic theory is quite
+challenging. Theory generated by case studies must be testable, replicable and coherent. The TPD guidelines
+generated by this research are testable, replicable and pretty straightforward so I am confident I managed to
+achieve this balance. The Design Thinking for Educators approach (please note that it is not a method) that
+I used in this research for the face-to-face workshops I highly recommend to any researcher who wishes to
+undertake an intervention, especially in the K-12 sector. This approach not only enables researchers to gain more
+insight into potential solutions for introducing new professional practices, but also affords teachers multiple
+opportunities to participate in the process of determining how innovation may be best implemented. Its only
+Case Study | 43
+3. Design-Based Research and Interventions
+Design-Based Research (DBR) is a research methodology used by researchers in the learning sciences. DBR is a
+concentrated, collaborative and participatory approach to educational inquiry. The basic process of DBR involves
+developing solutions or interventions to problems (Anderson & Shattuck, 2012). An “Intervention” is any interference
+that would modify a process or situation. Interventions are thus intentionally implemented change strategies (Sundell
+& Olsson, 2017). Data analysis takes the form of iterative comparisons. The purpose of this research perspective is to
+generate new theories and frameworks for conceptualising learning and instruction.
+One positive aspect of DBR is that it can be employed to bring researchers and practitioners together to design
+context-based solutions to educational problems, which have deep-rooted meaning for practitioners about the
+relationship between educational theory and practice. DBR assumes a timeframe which allows for several rounds of
+review and iteration. It might be seen as a long-term and intensive approach to educational inquiry which is not really
+suitable for doctoral work, but increasingly there are examples of this approach being used (Goff & Getenet, 2017).
+DBR provides a significant methodological approach for understanding and addressing problems of practice,
+particularly in the educational context, where a long criticism of educational research is that it is often divorced from
+the reality of the everyday (Design-Based Research Collective, 2003). DBR is about balancing practice and theory,
+meaning the researcher must act both as a practitioner and a researcher. DBR allows the collection of data in multiple
+ways and encourages the development of meaningful relationships with the data and the participants. DBR can also be
+used as a practical way to engage with real-life issues in education.
+DBR & Interventions: GO-GN Insights
+Roberts (2019) used a design-based research (DBR) approach to examine how secondary students expanded their
+learning from formal to informal learning environments using the open learning design intervention (OLDI) framework
+to support the development of open educational practices (OEP).
+“We took some methods and research classes in my EdD program. I took Design-based research (DBR) and found
+it confusing and overwhelming. As such, I decided to take an extra course on case study research because it
+seemed to speak to me the most. In my mind I thought I could compare and contrast a variety of secondary
+school teachers integrating open ed practices. Through my initial exploration, I discovered that in my school
+district (30,000 + students), there are many teachers using OEP, but they were not interested in working “with”
+me, they wanted me to watch and observe them teach – then write about it. I began to understand that not
+only did I want to consider focusing my research on an emerging pedagogy (OEP) I also realized that I wanted to
+consider newer participatory methods. I did notmthink of DBR in this context when I took the initial course.
+“I knew I wanted to work with a teacher and complete some kind of intervention in order to support them in
+thinking about and actually integrating OEP. DBR was suggested to me multiple times, but I kept pushing it away.
+At the same time many of my supervisory committee and my peers did not think I should even consider DBR.
+I discovered that many researchers don’t know about it and are fearful of it. As I learned, when you do choose
+DBR, it is kind of like being an open learner in that you believe in the philosophy behind the DBR process. You
+just “are” a DBR researcher and educator.
+“It took many hours of reflection, reading about different examples of DBR, going to workshops and webinars
+about DBR in order to really see the possible benefits of DBR (collaborative, iterative, responsive, flexibility,
+balance between theory/ practice and relationships based) to get me to take the plunge…” (Verena Roberts)
+46 | Design-Based Research and Interventions
+Literature Review, Systematic Review and
+Meta-analysis
+Literature reviews can be a good way to narrow down theoretical interests; refine a research question; understand
+contemporary debates; and orientate a particular
+research project. It is very common for PhD theses to contain some element of reviewing the literature around a
+particular topic. It’s typical to have an entire chapter devoted to reporting the result of this task, identifying gaps in the
+literature and framing the collection of additional data.
+Systematic review is a type of literature review that uses systematic methods to collect secondary data, critically
+appraise research studies, and synthesise findings. Systematic reviews are designed to provide a comprehensive,
+exhaustive summary of current theories and/or evidence and published research (Siddaway, Wood & Hedges, 2019) and
+may be qualitative or qualitative. Relevant studies and literature are identified through a research question, summarised
+and synthesized into a discrete set of findings or a description of the state-of-the-art. This might result in a ‘literature
+review’ chapter in a doctoral thesis, but can also be the basis of an entire research project.
+Meta-analysis is a specialised type of systematic review which is quantitative and rigorous, often comparing data and
+results across multiple similar studies. This is a common approach in medical research where several papers might
+report the results of trials of a particular treatment, for instance. The meta-analysis then statistical techniques to
+synthesize these into one summary. This can have a high statistical power but care must be taken not to introduce bias
+in the selection and filtering of evidence.
+Whichever type of review is employed, the process is similarly linear. The first step is to frame a question which can
+guide the review. This is used to identify relevant
+literature, often through searching subject-specific scientific databases. From these results the most relevant will be
+identified. Filtering is important here as there will be time constraints that prevent the researcher considering every
+possible piece of evidence or theoretical viewpoint. Once a concrete evidence base has been identified, the researcher
+extracts relevant data before reporting the synthesized results in an extended piece of writing.
+Literature Review: GO-GN Insights
+Sarah Lambert used a systematic review of literature with both qualitative and quantitative phases to investigate the
+question “How can open education programs be reconceptualised as acts of social justice to improve the access,
+participation and success of those who are traditionally excluded from higher education knowledge
+and skills?”
+“My PhD research used systematic review, qualitative synthesis, case study and discourse analysis techniques,
+each was underpinned and made coherent by a consistent critical inquiry methodology and an overarching
+research question.
+“Systematic reviews are becoming increasingly popular as a way to collect evidence of what works across
+multiple contexts and can be said to address some of the weaknesses of case study designs which provide detail
+about a particular context – but which is often not replicable in other socio-cultural contexts (such as other
+countries or states.) Publication of systematic reviews that are done according to well defined methods are quite
+likely to be published in high-ranking journals – my PhD supervisors were keen on this from the outset and I was
+encouraged along this path.
+“Previously I had explored social realist authors and a social realist approach to systematic reviews (Pawson
+on realist reviews) but they did not sufficiently embrace social relations, issues of power, inclusion/exclusion.
+48 | Literature Review, Systematic Review and Meta-analysis
+Ethnography
+Ethnography is an explanatory account of life experiences in a social system based on detailed observations of what
+people do and express (Marcus, 1995). Ethnography aims to study social and cultural aspects of a society and the
+researcher focuses to collect information for that. It focuses on behaviour of people with respect to the social setup they
+live in. This approach is highly immersive and provides one with a highly transparent and original account of information
+allowing the culture to speak for itself (Khan, 2018). The behaviour of the participants in each social situation is examined
+along with the group members’ interpretation of such behaviour (Wolff, 2015). Ethnography uses both qualitative and
+quantitative research methods when studying specific groups that form a part of a larger complex society (Falzon, 2005).
+Ethnography: GO-GN Insights
+Chtena (2019) has developed a multi-sited ethnographic design including interviews, observations and a system analysis
+approach to track the development and implementation of open textbooks in Californian higher education. What makes
+multi-sited ethnography attractive is the prospect of systematically linking observations seemingly distant geographical,
+institutional, organisational, cultural, technological and cognitive settings. In this case, multi-sited ethnography does
+not set out from a particular site, but rather from the construction of specific social practices and phenomena within a
+relational network that connects several places (e.g., institutions, people, objects, projects and discourses).
+“The study demonstrates that binary conceptualizations of openness (i.e., “open” vs “closed”) based on formal
+characteristics (e.g., licensing) are not reflective of how people “do” openness in practice, and that different
+needs, values, priorities and interpretations of “open” give rise to different artifacts in different disciplines and
+institutional settings. Moreover, the study shows how the frictions of open textbook production, circulation,
+and maintenance belie the fantasy of open textbooks as a dynamic interface prime for adaptation, modification
+and remix. What makes multi-sited ethnography attractive is the prospect of systematically linking observations
+from seemingly distant geographical, institutional, organizational, cultural, technological and cognitive settings.
+The promise of multi-sited ethnography is, far beyond the simple multiplication of field-sites, a new way
+of describing systemic relationships and the interdependency of the many ‘parts and subparts’ of the
+sociotechnical infrastructure in which technology, such as open textbooks, is embedded. A concern with multi-
+sitedness, on the other hand, is that by spreading the ethnographer too thinly across space, it jeopardizes
+anthropology’s commitment to depth and thick description. If, especially, the overall duration of the fieldwork
+remains the same as in single-sited research, it will only be possible to visit and investigate each site
+comparatively briefly, and build relatively superficial relationships with key informants. Thus, one of the key
+strengths of ethnography is in danger of being lost. While this is an important corrective, I believe that, in the
+context of this study, the benefits of multi-sitedness outweigh the potential disadvantages. Since I followed the
+movement of content and ideas through the open textbook ecosystem, a systemic, multi-locale, multi-entity and
+multi-platform approach is fitting.
+“My advice for anyone interested in multi-sited ethnography is to make sure they have a really good grasp of
+ethnographic methods, as well as systems theory. It is a lot harder, in many ways, than single-sited ethnography
+— harder to plan and harder to execute, so be strategic and be prepared to get outside your comfort zone. I
+wouldn’t recommend this method to anyone who’s trying to finish their project in a very short amount of time. I
+also believe that it necessitates a highly interdisciplinary outlook and training.”
+Walter Butler used Netnography (online Ethnography) to support research into virtual communities of practice and
+Ethnography | 51
+not speak of the intimate as his sensation, but speaks of his social “I”. Our methodological approach also
+integrates the virtual ethnographic method (Hine, 2000), also called digital ethnographic methods, which make
+use of Internet and digital technologies for the collection and analysis of research data. Digital ethnography
+allows us to take advantage of the potential that technologies are offering to project knowledge about reality
+in contemporary society in greater depth, both in terms of the definition of the object of knowledge itself and
+the methodological design to access it. It is in this sense that digital ethnography techniques are incorporated
+into the design of my research. Within the framework of high technological availability scenarios, methods
+of the data collection techniques typical of the ethnographic methodology can be expanded to include web
+conferences, chat, videoconferences, forums, among others. From the use of this type of resources, digital
+narratives can be obtained, stories by subjects conceived as spokespersons or social representatives of the
+groups and communities.”
+Hélène Pulker followed Constructivist Grounded Theory methods of data collection and analysis to conduct an inductive
+qualitative study into the impact of reuse and adaptation of OER among language teachers.
+“Regardless of the chosen method, there are no absolute rules or formula for attending to qualitative data
+analysis or any ways to replicate perfectly the researcher’s analytical thought processes. The available guidelines
+and suggestions are not rules and therefore each qualitative researcher will have to find their own way through
+the data. As a result, each qualitative analysis is unique and therefore makes your research original. However, it
+rely on the researcher’s skills, who constantly has to make judgements and exercise creativity while applying the
+guidelines.
+“The analysis depends on the analytical intellect and flair of the researcher and the human factor is the great
+strength and the fundamental weakness of
+qualitative enquiry. The great advantage is the flexibility. Throughout my data collection and analysis, I
+continuously analysed and questioned data through coding, re-coding, comparing codes, and finding sub-
+categories to arrive at the final analysis. This process allowed me to look for the emergence of unexpected
+trends and to make connections between the codes. As I observed and questioned the data, it became clear that
+participants were experiencing OER reuse in different ways. I could identify some similarities across a number
+of participants and was able to identify three different types of OER users, each having different characteristics.
+From that point onwards, I was able to explain the categories by comparing data from each type of user’s point
+of view and I arrived at a more comprehensive analysis of the reuse process that emerged from my study. The
+robustness of the data analysis lies in the cross comparison of categories and types of user, as I explain in my
+thesis.
+“However, the big downside is the complexity of finding your way through the data because there are no
+preconceived codes or theoretical framework you can rely on. The codes developed in the analysis are largely
+provisional to start with and very often subject to much change. The principles of interpretative coding are
+not as straightforward a procedure as I had originally imagined. Coding for meaning is nebulous and has
+posed challenges. The gradual formation of codes and categories was, in my analysis, rather a tentative process
+whereby I could see that putting different ‘pieces’ together would yield different meanings. Thus, my experience
+was often one of going round and round the data. A further contributory factor to the difficulty in deciding on
+the label for a code was the absence of an overarching framework for looking at the data. In other words, I did not
+have an overarching view of which cocepts might be included in the schema. I would recommend students who
+wish to do grounded theory to think about the differences between inductive and deductive analysis and be very
+sure that they do not want to rely on theoretical framework to start with, because the grounded theory analysis
+takes a long long time, and when the researcher has possible avenues to explore to start with, it is easier to
+handle a set of data. I would also recommend the use of a data analysis software, even though the Constructivist
+grounded theorists advise against this for epistemological reasons.”
+Grounded Theory | 57
+phenomenography, it is the phenomenographic focus on variation of experience, rather the focus on essence of
+experience made by phenomenologists, that made a difference to which methodology and methods I chose.”
+Marjon Baas conducted interviews in both the first and the fourth study of her research. In the first study, interviews
+were used to explore teachers’ current practices with OER and their need for support. The questions in the interview
+guide were based on the different layers of the OER Adoption Pyramid. Baas used additional interviews to gain more
+insights into teachers’ perceived value of an OER Community of Practice.
+“A mixed method approach was adopted in which a questionnaire was sent out to examine the current state
+of affairs within the context of my study. Afterwards, interviews were conducted to explore teachers’ current
+practices with OER and their need for support. The instruments were designed based on the different layers
+of the OER Adoption Pyramid (Cox & Trotter, 2017). We used additional interviews to gain more insights into
+teachers’ practices because previous research showed that there is still a lot of ambiguity around the term OER
+and so-called ‘dark-reuse’ could be prevalent which cannot be measured in quantitative measurements alone.
+“The second study was a qualitative study to improve our understanding how teachers assess OER and how
+they move from initial assessment to adoption. In this qualitative study teachers were asked to collaboratively
+assess OER within their teaching subject. The aim of our study was to characterize what elements teachers take
+into account when assessing OER quality and not to generalize what defines a quality OER. We also explored by
+asking teachers to create an association map before and after the three months in which teachers could explore
+OER, if their perception changed during. We choose this qualitative design because it provides rich insights into
+the elements teachers’ take into account when assessing OER rather than a quantitative measurement in which
+teachers are asked to self-reflect how they assess OER.
+“The follow-up study focuses on a subject community in which we will make use of a mixed-methods design.
+Qualitative data will be collected through interviews with teachers based on the five phases of the OER re-use
+process as defined by Clements and Pawlowski (2012). This data will be used to analyze how teachers make use
+of the subject community.”
+Viviane Vladimirschi used focus groups to assess the overall effectiveness of the intervention in her research. These
+focus group conversations consisted of semi-structured, open-ended questions.
+“Focus groups are excellent for gaining new insights and assessing interventions. In my opinion, the biggest
+challenge is knowing what questions to ask in order to obtain useful data. I used Guskey’s (2002) Multilevel
+Evaluation Framework to guide the semi-structured, open-ended interview questions. In my opinion, Guskey’s
+model is effective and straightforward for educational interventions.
+“Although the use of mixed methods can be excellent to collect and compare different sources of data
+enhancing the quality of data and promoting convergence and confirmation of findings, the researcher must
+feel comfortable with and be knowledgeable with both quantitative and qualitative data collection and analysis.
+I would also not recommend quantitative data methods for small sample populations.”
+Useful references for Interviews & Focus Groups: Ayres (2008); Bailey (1994); Bloor (2001); Morgan (1996)
+60 | Interviews & Focus Groups
+“Although my personal tendency is toward qualitative methods, I found the requirement of a mixed method
+approach for my research extremely beneficial as a novice. I was required to learn and practice skills of both
+approaches and to learn how different types of data interact and combine to magnify insight. When qualitative
+and quantitative data agreed, this generated confidence for me that I was on the right path. When these data
+disagreed, I returned to the literature, and method descriptions to develop explanations and further refine my
+contexts and the contexts of my participants.”
+Virginia Power is investigating the social, cultural and technical factors that mediate the relationship between social
+media affordances and the use of repositories for OER (ROER) using ‘cultural probes’ to collect data from 45 participants.
+“I wanted to find a method that would provide evidence of the psychology involved in using social media
+affordances (likes, ratings, reviews) and felt that a largely qualitative method would be useful. I had wanted to
+undertake some socio-technical system design but this is likely to happen once the
+thesis is finished to test out findings.
+“A largely qualitative approach was used, with cultural probes selected as the method for data collection.
+Cultural probes (Gaver et al., 1999) utilise tools and tasks enabling the participant to reflect on their working
+environment (either physical or virtual) facilitating a deeper insight into motivation and use of the environment
+with limited researcher influence. Consequently, two elements were chosen as potentially suitable for data
+collection – a research journal for self-reflection and screencasts that would elicit both audio and video
+recordings from each participant.”
+“Cultural probes if properly designed will often give users the opportunities to record their thoughts and
+feelings in their own particular context. They
+also provide users with independence and minimal interference from the researcher. Often cultural probes can
+be used to triangulate against other independent data, such as focus groups or usability studies with the aim to
+improve reliability. Users need to be clearly briefed on the purpose of the research and exactly what they need
+to do and the amount of time needed to transcribe the data should not be underestimated.”
+Paula Cardoso included interviews and surveys in her research conducted to understand the perceptions and practices
+of faculty in public higher education institutions in Portugal towards OERs.
+“We understood it was advantageous to articulate qualitative and quantitative techniques, as it may reveal or
+deepen the study of some dimensions of the same reality. In this research, the mixed methods approach, with
+sequential character, was useful in a double perspective: on the one hand, it allowed us to articulate different
+techniques to deepen the study of some dimensions in analysis, and on the other hand, it also mpresented
+advantages in terms of data triangulation. Finally, using mixed methods allows the study of a given phenomenon
+in a broader and deeper perspective, in order to obtain richer and more varied data, which can be better
+explored, giving greater strength and rigor to research.”
+Useful references for Mixed Methods: Creswell (2009); Dominguez & Hollstein (2014); Edwards (2010); Ivankova (2015);
+Morgan (2014); Shorten & Smith (2017); Tashakkori & Teddlie (2010)
+62 | Mixed Methods
+Phenomenography
+Phenomenography is a qualitative research methodology that investigates the qualitatively different ways in which
+people experience something or think about something (Bowden et al., 1997; Ashworth & Lucas, 1998).
+Phenomenography aims at studying the variation of ways people understand phenomena in the world. In simpler terms,
+phenomenography explores the variation in how different people conceive of learning experiences (Akerlind, 2005).
+Those who design and deliver professional learning can use empirical research rather than anecdotal evidence to inform
+the development and delivery of meaningful professional learning experiences.
+Phenomenography: GO-GN Insights
+Penny Bentley used phenomenography to explore the experience of professional learning through open education
+(PLOE) from the perspective of teachers as adult learners. The study was conducted to inform the design and delivery
+of meaningful professional learning to other teachers seeking to learn about STEM education on the open Web.
+“Phenomenography is not a widely used methodology. There is variation in literature on phenomenography
+around aspects of theory, methodology and method. This made it difficult for me, as a novice, solo researcher to
+comprehend and discuss with my supervisors who are not experts in the field. It is time consuming to conduct
+phenomenographic data analysis on a huge amount of data.
+“I wanted to explore, understand and describe the different ways teachers experienced PLOE, from their
+perspective. This was an interpretive activity, situating my research in the interpretive paradigm. Also,
+describing the perspectives of teachers, in terms of what PLOE means to them, was research of a qualitative
+nature. However, there are a range of methodologies within the interpretive paradigm, such as ethnography,
+grounded theory, phenomenology and phenomenography.”
+In order to justify my choice for this study I needed to consider the differences between these methodologies. I was
+not studying the culture of a group of teachers using the open Web to learn about STEM education (ethnography),
+although culture may be an aspect of how the phenomenon of PLOE is experienced. Nor was I generating a theory to
+explain the cause of social processes and interactions when teachers engaged in PLOE (grounded theory), although I was
+interested in understanding and describing the different ways these processes and interactions are experienced. Even
+though human experience is the focus of phenomenology and phenomenography, it is the phenomenographic focus on
+variation of experience, rather the focus on essence of experience made by phenomenologists, that made a difference
+to which methodology and methods I chose.
+“Phenomenography enables me to describe variation in the lived experiences of PLOE from the perspective of
+teachers experiencing this phenomenon. This is important since much of the literature on professional learning
+does not include the different views of teachers, but focuses on aspects of professional learning that others
+consider important. It is this focus on variation of experience, particularly the meaning of experience, that I see
+as having a practical application to the professional learning of Australian teachers of STEM subject areas.
+“If you are new to research, and working alone, I would advise you not to conduct a phenomenographic
+study unless you have people who are familiar with this methodology to support you. Give yourself plenty
+of time and limit the number of participants what is recommended in the literature. If you don’t know any
+phenomenographers in your institution, seek out networks of practice on social media. Read the seminal
+literature on phenomenography, then read it again.”
+A phenomenographic data collection was conducted by Chrissi Nerantzi using a collective case study approach to gain
+Phenomenography | 65
+means to them, and provide a comprehensive description while recognizing the importance of social structure
+and context (Moustakas, 1994). Social structures are represented through the individual’s interpretation and
+construction of meaning in the world, and this social meaning construction can be studied empirically by the
+researcher (Aspers, 2009). The phenomenological approach aims to understand the general or typical essential
+structures of individual experience, based on the descriptions of those experiences. In doing so, I seek to
+understand not what ‘is’ in the world but to understand why conscious individuals say that something ‘is’ (Giorgi,
+1997).
+“Trialing research questions can strengthen a phenomenological study as it allows one to engage with and
+become familiar with the research space, learn about the context in which individuals of interest work, and
+gather feedback from potential participants or those operating in similar situations (Aspers, 2009). The interview
+questions, conducted using the Zoom synchronous meeting service, were trialed first with my supervisor, who
+uses open educational practices in her undergraduate and graduate teaching. My
+supervisor was able to provide some feedback on the questions from her perspective as a faculty member. As a
+result of this process, we adjusted some of the language and sequencing of the questions.”
+Jessica O’Reilly includes an interpretivist phenomenological analysis (IPA) methodology in her study of OER enabled
+pedagogy.
+“The idiographic focus of the IPA approach fits very well with my research question, which is interpretivist,
+emergent, and very focused on
+contextualized individual experience and sensemaking. One clear advantage that I see is the combination of
+psychological, interpretive, and idiographic “lenses” within the approach. IPA is well-suited, I think, to questions
+concerned with the experiences of a fairly concentrated and homogenous participant sample. A potential
+disadvantage to my IPA study will be the reliance upon interview data and the huge amount of work involved
+with transcription and analysis.”
+Useful references for Phenomenology: Clandinin & Connelly (2004); Friesen, Henriksson & Saevi (2012); Giorgi (1997);
+Gray (2014); Manen (2018); Maxwell
+2013); Smith, Flowers & Larkin (2009)
+68 | Phenomenology
+Social Network Analysis
+Social media analytics is the process of gathering and analysing data from social networks. (Scott, 2000). Social
+Network Theory is the study of how people or groups interact with others inside their network. The three types of social
+networks are ego-centric networks, socio-centric networks, and open-system networks (Borgatti, & Lopez-Kidwell,
+2011).
+The objective of social network analysis (SNA) is to understand the interactions between each of the members of
+the network. These connections, called relationships or ties, are at the heart of what this analysis seeks to study and
+understand. The reasons why the individuals interact and how they interact their level of closeness (Borgatti et al., 2009).
+SNA provides both qualitative and quantitative data of online learning communities.
+Social Network Analysis: GO-GN Insights
+Aras Bozkurt used SNA to track digital footprints of online participants and map and visualize online learning
+community.
+“For data collection and analysis, social network analysis, interview, observation and document analysis was
+used. Research findings were interpreted with the perspectives of connectivism, rhizomatic learning and social
+network theory.
+“According to the demographic findings of the research, learners in connectivist massive open online networks
+are distributed globally in time and place, many participate from English spoken countries, and 89% of the
+learners come from low-context cultures while 11% comes from high context cultures. Participants are
+individuals that are somehow connected to the education field; or students or instructors in higher education.
+When examined in terms of interaction patterns, unified-tight crowd community pattern was observed in
+connectivist massive open online course networks. The nodes in this kind of networks have strong connections
+to one another and significant connections that bridge sub-groups. Learners of this type of networks tend to
+communicate with each other frequently and share a common interest. These networks are composed of a few
+dense and/or densely interconnected groups where conversations usually swirl around and increase its density
+towards the center, involving different people at different times.
+“Research findings additionally demonstrated that connectivist learning environments require relatively few
+hops to communicate and interact with the learning community, and confirmed the theses proposed in the Small
+World Phenomenon and the Global Village. SNA provides both qualitative and quantitative data of online learning
+communities. However, it fails to provide phenomenological qualitative data.”
+Some researchers collect this phenomenological data separately. For example, in addition to analysing network
+structures, Katy Jordan held co-interpretive interviews with 18 participants, to understand the significance and
+construction of their academic social networks.
+“My PhD study addressed the question of how academics use dedicated social networks through mixed methods
+social network analysis. First, an online survey was conducted to gain contextual data and recruit participants
+(n = 528). Second, ego-networks were drawn up for a sub-sample of 55 academics (reflecting a range of job
+positions and disciplines). Ego-networks were sampled from an academic SNS and Twitter for each participant.
+Third, co-interpretive interviews were held with 18 participants, to understand the significance of the structures
+and how the networks were constructed.
+“My methods changed direction (subtly) twice during the course of my PhD. The focus was always on the
+Social Network Analysis | 69
+structure of academic online social networks, but the level at which I looked at the networks changed. Originally
+I had planned to look at networks at a larger scale – such as the entire UK HE sector on Academia.edu. I changed
+tack to focus on academics’ individual (personal, ego-) networks instead, for two reasons. First, ethically, it is
+a lot more sound to capture an ego-network – at this level, you can get the participants’ consent. Second,
+in order to be able to understand the structures involved. For example, I could see interesting structural
+features in the OU networks, but network metrics can only tell you so much. By sampling personal networks,
+the structures could be meaningfully discussed with the participants themselves, in order to understand the
+significance and characteristics of different network features from their perspective. Combining digital (scraped)
+data with co-interpretive interviews offers much greater insight into the digital, open practices behind the
+network structures.”
+Useful references for Social Network Analysis: Borgatti & Lopez-Kidwell (2011); Borgatti et al. (2009); Dominguez &
+Hollstein (2014); Edwards, G. (2010); Hansen, Shneiderman & Smith, (2010); Jordan (2018); Kozinets (2015); Newman (2018);
+Scott (2000); Wenger, Trayner & de Laat (2011)
+70 | Social Network Analysis
+Surveys & Questionnaires
+Surveys involve asking a series of questions to participants. They can be administered online, in person, or remotely
+(e.g. by post/mail). The data collected can be analysed quantitatively or qualitatively (or both). Researchers might
+carry out statistical surveys to make statistical inferences about the population being studied. Such inferences depend
+strongly on the survey questions used (Solomon, 2001) meaning that getting the wording right is crucial. For this reason,
+many test out surveys in pilot studies with smaller populations and use the results to refine their survey instrument.
+Sampling for surveys can range between self-selection (e.g. where a link is shared with members of a target population
+in the hope they and others contribute data and share the survey) through to the use of specialised statistical techniques
+(“probability sampling”) that analyse results from a carefully selected sample to draw statistical conclusions about
+the wider population. Survey methodologies therefore cover a range of considerations including sampling, research
+instrument design, improving response rates, ensuring quality in data, and methods of analysis (Groves et al., 2011).
+One common question format is to collect quantitative data alongside qualitative questions. This allows a more
+detailed description or justification for the answer given to be provided. Collecting ordinal data (e.g. ranking of
+preferences through a Likert scale) can be a way to make qualitative data more amenable to quantitative analysis. But
+there is no one superior approach: the crucial thing is that the survey questions and their phrasing aligns with the
+research question(s) correctly.
+Surveys are widely used in education science and in the social sciences more generally. Surveys are highly efficient
+(both in terms of time and money) compared with other methods, and can be administered remotely. They can provide
+a series of data points on a subject which can be compared across the sample group(s). This provides a considerable
+degree of flexibility when it comes to analysing data as several variables may be tested at once. Surveys also work well
+when used alongside other methods, perhaps to provide a baseline of data (such as demographics) for the first step
+in a research study. They are also commonly used in evaluations of teaching & learning (i.e. after an intervention to
+assess the impact). However, there are some noteworthy disadvantages to using surveys. Respondents may not feel
+encouraged to provide accurate answers, or may not feel comfortable providing answers that present themselves in a
+unfavourable manner (particularly if the survey is not anonymous). “Closed” questions may have a lower validity rate
+than other question types as they might be interpreted differently. Data errors due to question non-responses may
+exist creating bias. Survey answer options should be selected carefully because they may be interpreted differently by
+respondents (Vehovar & Katja Lozar, 2008).
+Surveys & Questionnaires: GO-GN Insights
+Marjon Baas collected quantitative data through a questionnaire among teachers within an OER Community of Practice
+to explore the effect of the activities undertaken to encourage the use of the community on teachers’ behaviour in
+relation to OER.
+“I used several theoretical models (Clements and Pawlowski, 2012; Cox and Trotter, 2017; Armellini and Nie, 2013)
+to conceptualise different aspects (that relate to) OER adoption. This enabled me as a researcher to design my
+specific research instruments.”
+Judith Pete had a deliberate selection of twelve Sub-Saharan African universities across Kenya, Ghana and South Africa
+with randomly sampled students and lecturers to develop a representative view of OER. Separate questionnaires were
+used for students (n=2249) and lecturers (n=106).
+“We used surveys to collect data across three continents. Online survey tools were very helpful in online data
+Surveys & Questionnaires | 71
+collection and, where that was not possible, local coordinators used physical copies of the survey and later
+entered the information into the database. This approach was cost-effective, versatile and quick and easy to
+implement. We were able to reach a wide range of respondents in a short time. Sometimes we wondered, though,
+whether all those who responded had enough time to fully process and understand the questions that they were
+being asked. We had to allocate a significant amount of time to curating the data afterwards.”
+Samia Almousa adopted Unified Theory of Acceptance and Use of Technology (UTAUT) survey questionnaire, along with
+additional constructs (relating to information quality and culture) as a lens through which her research data is analysed.
+“In my research, I have employed a Sequential Explanatory Mixed Methods Design (online questionnaires and
+semi-structured interviews) to examine the academics’ perceptions of OERs integration into their teaching
+practices, as well as to explore the motivations that encourage them to use and reuse OERs, and share their
+teaching materials in the public domain. The online questionnaire was an efficient and fast way to reach a large
+number of academics. I used the online survey platform, which does not require entering data or coding as data
+is input by the participants and answers are saved automatically (Sills & Song, 2002). Using questionnaires as
+a data collection tool has some drawbacks. In my study, the questionnaire I developed was long, which made
+some participants choose their answers randomly. In addition, I have received many responses from academics
+in other universities although the questionnaire was sent to the sample university. Since I expected this to
+happen, I required the participants to write the name of their university in the personal information section of
+the questionnaire, then excluded the responses from outside the research sample. My advice for any researcher
+attempting to use questionnaires as a data collection tool is to ensure that their questionnaire is as short and
+clear as possible to help the researcher in analysing the findings and the participants in answering all questions
+accurately. Additionally, personal questions should be as few as possible to protect the identity and privacy of
+the participants, and to obtain the ethical approval quickly.”
+Olawale Kazeeem Iyikolakan adopted a descriptive survey of the correlational type. The author research design
+examines the relationship among the key research variables (technological self-efficacy, perception, and use of open
+educational resources) and to identify the most significant factors that influence academic performance of LIS
+undergraduates without a causal connection.
+“The descriptive research design is used as a gathering of information about prevailing conditions or situations
+for the purpose of description and interpretation (Aggarwal, 2008). My research design examines the
+relationship among the key research variables (technological self-efficacy, perception, and use of open
+educational resources) to identify the most significant factors that influence academic performance of Library &
+Information Science undergraduates without a causal connection. Ponto (2015) describes that descriptive survey
+research is a useful and legitimate approach to research that has clear benefits in helping to describe and
+explore variables and constructs of interest by using quantitative research strategies (e.g., using a survey with
+numerically rated items.
+“The reason for the choice of descriptive survey research instead of ex-post-facto quasi-experimental design
+is that this type of research design is used to capture people’s perceptions, views, use, about a current issue,
+current state of play or movements such as perception and use of OER. This research design comes with several
+merits as it enables the researcher to obtain the needed primary data directly from the respondents. Other
+advantages include: (1) Using this method, the researcher has no control over the variable; (2) the researcher can
+only report what has happened or what is happening. One of the demerits of this type of research design is that
+research results may reflect a certain level of bias due to the absence of
+statistical tests.”
+Useful references for Surveys & Questionnaires: Aggarwal (2008); Fowler (2014); Groves et al., 2011); Lefever, Dal &
+72 | Surveys & Questionnaires
+Bloor, C. M., & Wood, F. (2006). Keywords in Qualitative Methods Vignettes: A vocabulary
+of research concepts. SAGE.
+Borgatti, S. P., & Lopez-Kidwell, V. (2011). Network theory. In J. Scott, & P. J. Carrington
+(Eds.), The SAGE handbook of social network analysis (40–54). Thousand Oaks, CA:
+Sage.
+Borgatti, S., Mehra, A., Brass, D. J., & Labianca, G. (2009). Network analysis in the social
+sciences. Science, 323(5916), 892–5.
+Bowden, J.A. & Green, P. (Ed.s). (2005). Doing Developmental Phenomenography. RMIT
+University Press: Melbourne.
+Bowden, J.A. & Walsh, E. (Ed.s). (2000). Phenomenography, Qualitative research methods
+series, RMIT University Press: Melbourne.
+Box, G. E. P.. (1976). Science and Statistics. Journal of the American Statistical Association,
+71(356), 791.
+Bozkurt, A. (2019) Intellectual roots of distance education: a progressive knowledge domain
+analysis, Distance Education, 40:4, 497-514, DOI: 10.1080/01587919.2019.1681894
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in
+Psychology, 3(2), 77–101.
+Brown, M.E., & Dueñas, A.N. (2020) A Medical Science Educator’s Guide to Selecting a
+Research Paradigm: Building a Basis for Better Research. Medical Science Educator,
+30, 545–553. https://doi.org/10.1007/s40670-019-00898-9
+Brown, T., & Wyatt, J. (2010). Design thinking for social innovation. Development Outreach,
+12(1), 29-43.
+Bryman A. (2011). Business research methods. Bell, Emma, 1968- (3rd ed.). Cambridge:
+Oxford University Press
+Carson, D., Gilmore, A., Perry, C. & Gronhaug, K. (2001). ‘Philosophy of Research’ in
+Qualitative Marketing Research. SAGE.
+https://dx.doi.org/10.4135/9781849209625.n1
+Caruth, G. (2018). Student engagement, retention, and motivation: Assessing academic
+success in today’s college students. Participatory Educational Research, 5(1), 17- 30.
+Casadevall, A. & Fang, F. (2016). Rigorous Science: a How-To Guide. mBio. 7.
+https://mbio.asm.org/content/7/6/e01902-16
+Charmaz, K. (2006). Constructing Grounded Theory. London, Thousands Oaks, New Delhi:
+Sage. ISBN-13 978-0-7619-7352-2
+69
+Chang, R., & Little, T. D. (2018). Innovations for evaluation research: Multiform protocols,
+visual analog scaling, and the retrospective pretest–posttest design. Evaluation &
+the health professions, 41(2), 246-269.
+Clandinin, D. J. & Connelly, F. M. (2004). Narrative inquiry: Experience and story in
+qualitative research. San Francisco, CA: John Wiley & Sons.
+Clarke, V., Braun, V., & Hayfield, N. (2015). Thematic analysis. Qualitative psychology: A
+practical guide to research methods, 222-248.
+Clements, K. I., & Pawlowski, J. M. (2012). User-oriented quality for OER: Understanding
+teachers’ views on re-use, quality, and trust. Journal of Computer Assisted Learning,
+28(1), 4–14. http://doi.org/10.1111/j.1365-2729.2011.00450.x
+Conole, G. (2013). Designing for learning in an open world. New York, NY: Springer.
+Corbin, J. M. , & Strauss, A. L. (2015). Basics of qualitative research: techniques and
+procedures for developing grounded theory (Fourth edition). Los Angeles: SAGE.
+Cox, G. J., & Trotter, H. (2017). An OER framework, heuristic and lens: Tools for
+References | 81
+understanding lecturers’ adoption of OER. Open Praxis, 9(2): 151–171.
+http://doi.org/10.5944/openpraxis.9.2.571
+Creswell, J. W. (2009). Research design: Qualitative, quantitative, and mixed methods
+approaches (3rd ed.). London, UK: Sage.
+Creswell, J. W. (2013). Steps in Conducting a Scholarly Mixed Methods Study. DBER
+Speaker Series, 48. https://digitalcommons.unl.edu/dberspeakers/48
+Crotty, M. (1998). The Foundations of Social Research: Meaning and Perspective in the
+Research Process. London: SAGE
+Danermark, B., Ekström, M., Liselotte, J., & Karlsson, J. (2002). Explaining Society. Critical
+Realism in the Social Sciences. London and New York: Routledge.
+Davis, B. y Sumara, D. (2006). Complexity and Education: Inquiries into Learning, Teaching,
+and Research. New York: Routledge.
+Design-Based Research Collective. (2003). Design-based research: An emerging paradigm
+for educational inquiry. Educational Researcher, 32(1), 5-8.
+Design Thinking for Educators (2013). Toolkit. IDEO Riverdale.
+https://designthinkingforeducators.com
+Denzin, N. K. (2017). Critical Qualitative Inquiry. Qualitative Inquiry, 23(1), 8–16.
+https://doi.org/10.1177/1077800416681864
+Dominguez, S. & Hollstein, B. (2014). Mixed methods social networks research: Design and
+analysis. Cambridge, Cambridge University Press.
+70
+Edwards, G. (2010) Mixed-method approaches to social network analysis. Discussion Paper.
+NCRM.
+Falzon, M. (2005). Multi-sited ethnography: theory, praxis and locality in contemporary
+research. Routledge.
+Farrow, R. (2016). A Framework for the Ethics of Open Education. Open Praxis, 8(2).
+http://dx.doi.org/10.5944/openpraxis.8.2.291
+Finfgeld-Connett, D. (2014). Use of content analysis to conduct knowledge-building and
+theory-generating qualitative systematic reviews. Qualitative Research, 14(3),
+341–352. https://doi.org/10.1177/1468794113481790
+Fowler, F. J. (2014). Survey research methods (Fifth edition.). SAGE.
+Freire, P. (1994). Pedagogy of Hope. London and New York: Bloomsbury Publishing.
+Friesen, N., Henriksson, C., & Saevi, T. (2012). Hermeneutic Phenomenology in Education:
+Method and Practice. SensePublishers.
+Gaver, W.W., Dunne, A. and Pacenti, E. (1999) Design: Cultural Probes. Interactions, (6) 1,
+21-29. http://doi.org/10.1145/291224.291235
+Gee, J. P. (2011). How to do Discourse Analysis: A Toolkit. Routledge: New York and
+London.
+Gee, J. P. (2014). An introduction to discourse analysis: Theory and method. Routledge.
+Gee, J. P., Michaels, S., & O’Connor, M. C. (2017). Discourse analysis. In LeCompte, M. D.,
+Millroy, W. L. & Goetz, J. P. (eds.) The handbook of qualitative research in
+education. San Diego : Academic Press
+Giorgi, A. (1997). The Theory, Practice, and Evaluation of the Phenomenological Method as
+a Qualitative Research Procedure. Journal of Phenomenological Psychology; Leiden,
+28(2), 235–260. https://doi.org/10.1163/156916297X00103
+Glaser, B. G. , & Strauss, A. L. (1967). The discovery of grounded theory: strategies for
+qualitative research. Aldine Pub. Co.
+Glaser, B. (2002). Constructivist Grounded Theory?, Forum: Qualitative Social Research, vol.
+82 | References
+3, no. 3. http://www.qualitativeresearch.net/index.php/fqs/article/view/825/
+Goff, W. M., & Getenet, S.. (2017). Design based research in doctoral studies: Adding a
+new dimension to doctoral research. International Journal of Doctoral Studies, 12,
+107-121. http://www.informingscience.org/Publications/3761
+Gray, D. E. (2014). Doing Research in the Real World (3rd ed.). SAGE.
+Groves, R. M., Fowler Jr, F. J., Couper, M. P., Lepkowski, J. M., Singer, E., & Tourangeau, R.
+(2011). Survey methodology (Vol. 561). John Wiley & Sons.
+71
+Guba, E. (1981). ERIC/ECTJ Annual Review Paper: Criteria for Assessing the Trustworthiness
+of Naturalistic Inquiries. Educational Communication and Technology, 29(2), 75.
+Guba E., & Lincoln, Y., (1994). Competing paradigms in qualitative research. In Denzin, N. &
+Lincoln, Y (eds.) Handbook on qualitative research. Thousand Oaks, Ca: Sage.
+105-118.
+Guskey, T. R. (2002). Does it make a difference? Educational Leadership, 59(6), 45-51.
+Guthadjaka, K., Christie, M., & Verran. (2015). Manbuynga Garmak Warramirri: The meaning
+of the deep sea water belonging to the Warramiri People. Darwin: Northern
+institute, CDU.
+Hansen, D., Shneiderman, B., & Smith, M. A. (2010). Analyzing social media networks with
+NodeXL: Insights from a connected world. Morgan Kaufmann.
+Heath, C., Hindmarsh, J. and Luff, P. (2010) Using video in qualitative research. London:
+Sage.
+Heron, J. & Reason, P. (1997). A participatory inquiry paradigm. Qualitative Inquiry. 3 (3)
+274-294.
+Hetherington, L. (2013). Complexity Thinking and Methodology: The Potential of ‘Complex
+Case Study’ for Educational Research. Complicity: An International Journal of
+Complexity and Education, 10 (1/2), 71-85.
+Ivankova, N. V. (2015). Mixed methods applications in action research: From methods to
+community action. Thousand Oaks, CA: Sage Publications, Inc.
+James, F. (2013). An exploration of grounded theory with reference to self and identity of
+part-time, mature learners in Higher Education. PhD Thesis, The University of Hull.
+https://hydra.hull.ac.uk/assets/hull:7163a/content
+Johnstone, B. (2018). Discourse analysis. John Wiley & Sons.
+Jordan, K. (2017). From crowdsourcing data to network building: Reflections on conducting
+research in the open. Research for All, 1(2). https://doi.org/10.18546/RFA.01.2.09
+Jordan, K. (2018) Validity, reliability and the case for participant-centred research:
+Reflections on a multi-platform social media study. International Journal of
+Human-Computer Interaction, 34(10), 913-921
+Kazdin, A. E. (2016). Single-case experimental research designs.
+Kemmis, S., McTaggart, R., & Nixon, R. (2013). The action research planner: Doing critical
+participatory action research. Springer Science & Business Media.
+Khan, M. H. (2018). Ethnography: An Analysis of its Advantages and Disadvantages.
+Available at SSRN 3276755.
+72
+Kimberly A. Neuendorf (2016). The Content Analysis Guidebook. SAGE.
+Kivuna, C. & Kuyini, A. B. (2017). Understanding and Applying Research Paradigms in
+Educational Contexts. International Journal of Higher Education, v6 n5 p26-41.
+https://eric.ed.gov/?id=EJ1154775
+Kozinets, R.V. (2015). Netnography: Redefined. Los Angeles, CA: Sage.
+References | 83
+Kuhn, T. (1962). The Structure of Scientific Revolutions. Chicago: University of Chicago
+Press.
+Lambert, S. R. (2020). Do MOOCs contribute to student equity and social inclusion? A
+systematic review 2014–18. Computers & Education, 145.
+https://doi.org/10.1016/j.compedu.2019.103693
+Lefever S, Dal M, Matthíasdóttir Á. (2007) Online data collection in academic research:
+advantages and limitations. British Journal of Educational Technology, Jul
+1;38(4):574–82.
+Leong, F.T.L. & Austin, J.T. (2006). The Psychology Research Handbook (2
+nd ed.). Sage
+Publications, Thousand Oaks, California.
+Levine, H. G., Gallimore, R., Weisner, T. S., & Turner, J. L. (1980). Teaching
+Participant-Observation Research Methods: A Skills-Building Approach.
+Anthropology & Education Quarterly, 11(1), 38-54.
+Lewis, J., & Sanderson, H. (2011). A practical guide to delivering personalisation:
+Person-centred practice in health and social care. Jessica Kingsley Publishers.
+Manen, M. V. (2018). Researching lived experience: Human science for an action sensitive
+pedagogy. New York, NY: Althouse.
+Marcus, G. E. (1995). Ethnography in/of the world system: The emergence of multi-sited
+ethnography. Annual review of Anthropology, 24(1), 95-117.
+Marcus, G. E. (1999). What is at stake–and is not–in the idea and practice of multi-sited
+ethnography. Canberra Anthropology, 22(2), 6-14.
+Marton, F., 1986. Phenomenography – A research approach to investigating different
+understandings of reality. Journal of Thought, 21 (3), Fall 1986, Periodicals Archive
+Online, 28-49.
+Marton, F., 1981. Phenomenography – describing conceptions of the world around us.
+Instructional Science, 10 (2), 177-200.
+Marton, F. & Booth, S., (1997). The idea of phenomenography. In: Marton, F. & Booth, S.,
+eds., 1997. Learning and awareness. New Jersey: Lawrence Erlbaum Ass. 110-136.
+Maxwell, J. (2012). A Realist Approach for Qualitative Research. London, Thousands Oaks,
+New Delhi: SAGE Publications. ISBN 978-0-7619-2923-9
+73
+Maxwell, J. A. (2004). Using Qualitative Methods for Causal Explanation. Field Methods,
+16(3), 243–264. https://doi.org/10.1177/1525822X04266831
+Maxwell, J. A. (2013). Qualitative Research Design: An Interactive Approach (3rd ed). SAGE
+Publications.
+McKenney, S., & Reeves, T. C. (2012). Conducting educational design research. Florence,
+KY: Taylor and Francis.
+McLean, L., & Connor, C. M. (2018). Challenges, Benefits, and Considerations When
+Conducting Classroom Video Observation Research. SAGE Publications Ltd.
+Mertler, C. A. (2014). Action research: Improving schools and empowering educators (4th
+ed.). Thousand Oaks, CA: Sage Publications, Inc.
+Miles, M. , & Huberman, A. M. (1999). Qualitative data analysis. SAGE.
+Mills, M., Van de Bunt, G. G., & De Bruijn, J. (2006). Comparative research: Persistent
+problems and promising solutions. International Sociology, 21(5), 619–631.
+Morgan, D. L. (1996). “Focus Groups”. Annual Review of Sociology. 22: 129–152
+Morgan, D. L. (2014). Integrating qualitative and quantitative methods: A pragmatic
+approach. Thousand Oaks, CA: SAGE Publications Ltd.
+84 | References
+http://doi.org/10.4135/9781544304533
+Munafò, M., Nosek, B., Bishop, D. et al. (2017). A manifesto for reproducible science.
+Nature Human Behavior 1, 0021. https://doi.org/10.1038/s41562-016-0021
+Murphy, J. (2006) Cultural Probes: Understanding Users in Context. User Experience: the
+magazine of the User Experience Professionals Association, (5) 3.
+https://uxpamagazine.org/issue/5-3/
+Newman, M. (2018). Networks (2
+nd ed.). Oxford University Press
+Oliver, C. (2011). Critical realist grounded theory : A new approach for social work research.
+British Journal of Social Work, 42(2), 1–17. https://doi.org/10.1093/bjsw/bcr064
+Oumard, M., Mirza, D., Kroy, J. and Chorianopoulos, K. (2008) A cultural probes study on
+video sharing and social communication on the internet. DIMEA ’08: Proceedings of
+the 3rd international conference on Digital Interactive Media in Entertainment and
+Arts, 142–148. http://doi.org/10.1145/1413634.1413664
+Choi, B. C., & Pak, A. W. (2006). Multidisciplinarity, interdisciplinarity and transdisciplinarity
+in health research, services, education and policy: 1. Definitions, objectives, and
+evidence of effectiveness. Clinical and investigative medicine. Medecine clinique et
+experimentale, 29(6), 351–364.
+74
+Patterson, M. and Williams, D. (1998). Paradigms and problems: The practice of social
+science in natural resource management. Society and Natural Resources, 11, 3:
+279-295. http://doi.org/10.1080/08941929809381080
+Patton, M. Q. (2010). Developmental evaluation: Applying complexity concepts to enhance
+innovation and use. New York: Guilford Press.
+Pham, L. (2018). A Review of key paradigms: positivism, interpretivism and critical inquiry.
+University of Adelaide. doi: 10.13140/RG.2.2.13995.54569.
+Ponto, J. (2015). Understanding and evaluating survey research. Journal of the advanced
+practitioner in oncology, 6(2), 168.
+Powell, R. R. (2006). Evaluation research: An overview. Library trends, 55(1), 102-120.
+Quiñones, M., Supervielle, M., & Acosta, M. J. (2017). Introduction to qualitative sociology:
+epistemological foundations and elements of design and analysis. UDELAR
+University editions.
+Rau, A., Elliker, F. & Coetzee, J. K. (2018). Collecting Data for Analyzing Discourses. In Flick,
+U. (ed.) The SAGE Handbook of Qualitative Data Collection.
+http://dx.doi.org/10.4135/9781526416070.n19
+Ross, S. M., & Morrison, G. R. (2004). Experimental research methods. Handbook of
+research on educational communications and technology, 2, 1021-43.
+Rutman, L. S. (1977). Evaluation research methods: A basic guide. Sage.
+Ryan, G. Introduction to positivism, interpretivism and critical theory. Nurse Researcher,
+25(4) 41–49. http://oro.open.ac.uk/49591/
+Ryan, R. M., & Deci, E. L. (2017). Self-determination theory : basic psychological needs in
+motivation, development, and wellness. New York, NY: Guilford Press.
+Saeed, S., & Zyngier, D. (2012). How Motivation Influences Student Engagement: A
+Qualitative Case Study. Journal of Education and Learning, 1(2), 252–267.
+Saldaña, J. (2016). The coding manual for qualitative researchers. Thousand Oaks, CA: Sage
+Publications, Inc.
+Salkind, N. J. (2002). Narrative research. Handbook of research design and social
+measurement, 143-196.
+References | 85
+Saunders, M., Lewis, P., Thornhill, A. (2009). Research Methods for Business Students. 5th
+ed. Pearson.
+Scott, J. (2000). Social network analysis: A handbook (2nd ed.). Thousand Oaks, CA: Sage
+Sheremeta, R. M. (2018). Behavior in group contests: A review of experimental research.
+Journal of Economic Surveys, 32(3), 683-704.
+75
+Shento, A. K. (2004). Strategies for ensuring trustworthiness in qualitative research projects.
+Education for Information, 22(2), 63–75.
+Shneider, A. M. (2009). Four stages of a scientific discipline; four types of scientist. Trends in
+Biochemical Sciences 34 (5), 217-233. https://doi.org/10.1016/j.tibs.2009.02.002
+Shorten, A., & Smith, J. (2017). Mixed methods research: expanding the evidence base.
+Evidence Based Nursing, 20(3):74-75. doi: 10.1136/eb-2017-102699.
+Shuttleworth, M. (2008). Case Study Research Design.
+https://explorable.com/case-study-research-design
+Siddaway, A. P., Wood, A. M., & Hedges, L. V. (2019). How to do a systematic review: a
+best practice guide for conducting and reporting narrative reviews, meta-analyses,
+and meta-syntheses. Annual review of psychology, 70, 747-770.
+Sills, S. J., & Song, C. (2002). Innovations in Survey Research: An Application of Web-Based
+Surveys. Social Science Computer Review, 20(1), 22–30.
+https://doi.org/10.1177/089443930202000103
+Smith, J. A., Flowers, P. & Larkin, M. (2009). Interpretive phenomenological analysis:
+Theory, method and research. London, UK: SAGE.
+Smith, L. T. (1999). Decolonizing methodologies. London: Zed Books Ltd
+Smith B. (2009) Why I Am No Longer a Philosopher (or: Ontology Leaving the Mother Ship
+of Philosophy). In: An Introduction to Ontology: From Aristotle to the Universal Core.
+Buffalo, NY. http://www.bioontology.org/node/560
+Solomon, D. (2001). Conducting web-based surveys. Practical Assessment, Research &
+Evaluation, 7(19). http://PAREonline.net/getvn.asp?v=7&n=19 .
+Stake, R. (1995). The art of case study research. Thousand Oaks, CA: Sage.
+Strevens, M. (2003). Bigger than Chaos. Understanding Complexity through Probability.
+Cambridge, Massachusetts: Harvard University Press.
+Sundell, K. & Olsson, T. (2017). Social Intervention Research. Oxford Bibliographies in
+Social Work, Publisher: Oxford University Press, Editors: Edward J. Mullen
+Tashakkori, A., & C. Teddlie (2010). SAGE Handbook of Mixed Methods in Social &
+Behavioral Research. Thousand Oaks, California: Sage. ISBN 978-1-4129-7266-6.
+Tight, M. (2016). Phenomenography: the development and application of an innovative
+research design in higher education research. International Journal of Social
+Research Methodology, 19(3), 319-338,
+http://dx.doi.org/10.1080/13645579.2015.1010284
+76
+The Design-Based Research Collective. (2003). Design-based research: An emergent
+paradigm for educational inquiry. Educational Researcher, 32(1), 5–8.
+https://doi.org/10.3102/0013189X032001005
+Thoring, K., Luippold, C. and Mueller, R.M. (2013) Opening the Cultural Probes Box: A
+Critical Reflection and Analysis of the Cultural Probes Method. Conference: 5th
+International Congress of International Association of Societies of Design Research
+(IASDR
+Vaismoradi, M., Turunen, H., & Bondas, T. (2013). Content analysis and thematic analysis:
+86 | References
+Implications for conducting a qualitative descriptive study. Nursing & health
+sciences, 15(3), 398-405.
+Vansteenkiste, M., Lens, W., & Deci, E. L. (2006). Intrinsic versus extrinsic goal contents in
+self-determination theory: Another look at the quality of academic motivation.
+Educational Psychologist, 41(1), 19–31.
+Vehovar, V. & Manfreda, K. L. (2008). Overview: Online surveys. In R. M. Lee & G. Blank
+(2008) (Eds.) The Sage Handbook of Online Research Methods. SAGE. 177–94.
+Vehovar, V., Manfreda, K. L. & Berzelak, J. (2018). Web Survey Methodology. University of
+Ljubljana. http://www.websm.org/
+von Wehrden, H., Guimarães, M.H., Bina, O. et al. (2019). Interdisciplinary and
+transdisciplinary research: finding the common ground of multi-faceted concepts.
+Sustainability Science 14, 875–888. https://doi.org/10.1007/s11625-018-0594-x
+Warschauer, M. (2003). Technology and Social Inclusion: Rethinking the Digital Divide. In
+The MIT Press. https://doi.org/10.1086/381987
+Weller, M. (2011). The Digital Scholar: How Technology Is Transforming Scholarly Practice.
+Basingstoke: Bloomsbury Academic.
+Weller, M. (2013). The Art Of Guerrilla Research. The Ed Techie.
+https://nogoodreason.typepad.co.uk/no_good_reason/2013/10/the-art-of-guerrilla-r
+esearch.html
+Weller, M., Jordan, K., DeVries, I & Rolfe, V. (2018). Open Praxis, 10(2), 109-126.
+doi:http://dx.doi.org/10.5944/openpraxis.10.2.822
+Wenger-Trayner, E. (2013). The Practice Of Theory: confessions of a social learning theorist.
+In V. Farnsworth & Y. Solomon (eds.), Reframing Educational Research (105–118).
+Milton Park: Routledge.
+Wenger, E., Trayner, B., and de Laat, M. (2011). Promoting and assessing value creation in
+communities and networks: a conceptual framework. Netherlands: Open University
+of the Netherlands.
+http://wenger-trayner.com/wp-content/uploads/2011/12/11-04-Wenger_Trayner_De
+Laat_Value_creation.pdf
+77
+Whyte, W. F., Greenwood, D. J., & Lazes, P. (1991). Participatory action research: Through
+practice to science in social research. Participatory action research, 19-55
+Williams, A., Lindtner, S., Anderson, K., and Dourish, P. 2014. Multi-sited Design: An
+Analytic Lens for Transnational HCI. Human-Computer Interaction, 29, 78-108.
+Wolff, S. (2015). Experiences with multi-sited ethnographies in transnational studies.
+MultiPluriTrans in educational ethnography: Approaching the multimodality, plurality
+and translocality of educational realities, 57-78.
+Yin, R. K. (2003). Case study research: Design and methods (3rd ed.). Thousand Oaks, CA:
+Sage.
+References | 87

@@ -1,0 +1,1 @@
+ A system is an arrangement in which all its unit assemble work together according to a set of rules . An embedded system is a microcontroller or microprocessor based system which is designed to perform a specific task . For example, a fire alarm is an embedded system; it will sense only smoke .

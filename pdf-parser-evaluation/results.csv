@@ -1,0 +1,5 @@
+PDF,Library,WER
+pdf1.pdf,pymupdf,0.11320754716981132
+pdf1.pdf,pdfplumber,0.07547169811320754
+pdf1.pdf,pypdf2,0.11320754716981132
+pdf1.pdf,pdfminer,0.11320754716981132

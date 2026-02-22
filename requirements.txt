@@ -8,9 +8,11 @@ tika
 pandas
 pytest
 black
-
 nltk
 spacy
-
 requests
 python-dotenv
+transformers
+torch
+huggingface-hub
+google-genai

@@ -1,21 +1,39 @@
-```markdown
-# dynamic-text-analyser
+# Document Processing & Text Preprocessing Toolkit
 
-This repository contains tools to:
-- Evaluate PDF/DOCX text extraction libraries using Word Error Rate (WER)
-- Extract text from PDF and DOCX and export to `.txt` or `.md`
+This repository provides a set of Python scripts for extracting text from documents, preprocessing it for NLP tasks, evaluating parser accuracy, and generating token tables with linguistic annotations.
 
-Quick start:
-1. Create and activate virtual environment:
-   - python -m venv .venv
-   - PowerShell: .\.venv\Scripts\Activate.ps1
-2. Install dependencies:
-   - pip install -r requirements.txt
-3. Put sample documents in `data/pdfs/` and `data/docx/`; create ground-truth `.txt` files in `data/ground_truth/` with same basenames.
-4. Run evaluation:
-   - python evaluate_parsers.py
-5. Convert a document:
-   - python convert_document.py input.pdf --out results/extracted/myfile.txt --parser pymupdf
+## Overview
 
-See the repository for parser implementations, evaluation scripts, and guidance on OCR/poppler.
-```
+The toolkit includes:
+
+- **`parsers.py`**  
+  Minimal in‑process parsers for PDF, DOCX, and OCR extraction.  
+  - `pymupdf` → uses [PyMuPDF](https://pymupdf.readthedocs.io/)  
+  - `docx` → uses [python-docx](https://python-docx.readthedocs.io/)  
+  - `ocr` → uses [pytesseract](https://pypi.org/project/pytesseract/) + [Pillow](https://pillow.readthedocs.io/)
+
+- **`convert_document.py`**  
+  Conversion utility that wraps `PARSERS` with fallback logic.  
+  Provides `extract_with_fallback(path, parser=None)` and a CLI for converting documents to plain text.
+
+- **`preprocess_text.py`**  
+  Preprocesses extracted text:  
+  - Cleans punctuation, numbers, and hyphenation  
+  - Tokenizes and removes stopwords  
+  - Produces stemmed and lemmatized outputs
+
+- **`evaluate_parsers.py`**  
+  Evaluates parser performance using Word Error Rate (WER) against reference text files.  
+  Outputs results to CSV.
+
+- **`tokens_table.py`**  
+  Generates a CSV table with token, POS tag, stem, and lemma.  
+  Supports both NLTK and spaCy lemmatization.
+
+## Installation
+
+Clone the repository and install dependencies:
+
+git clone <repo-url>
+cd <repo-dir>
+pip install -r requirements.txt

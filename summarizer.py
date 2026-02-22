@@ -1,32 +1,65 @@
+"""
+summarizer.py - Google Gemini-based structured document summarizer.
+This script:
+    - Reads extracted text files from results/extracted/
+    - Sends document content to Google Gemini API
+    - Generates structured summaries
+    - Saves summaries as Markdown files in results/summaries/
+
+Model Used:
+- gemini-2.0-flash → Fast and efficient large language model
+
+Summary Structure:
+-
+1. Executive Summary
+2. Key Concepts
+3. Technical Highlights
+4. Important Insights
+5. Conclusion
+
+Required Libraries:
+- os            : File and directory operations
+- dotenv        : Load environment variables from .env
+- google.genai  : Gemini API client library
+
+Environment Requirements:
+- A .env file containing:
+      GEMINI_API_KEY=your_google_gemini_api_key
+
+Input:
+- Text files (.txt) inside:
+      results/extracted/<parser_name>/
+
+Output:
+- Structured Markdown summaries saved to:
+      results/summaries/<parser_name>/
+"""
+
 import os
 from google import genai
 from dotenv import load_dotenv
 
 
-# ==========================
-# CONFIGURATION
-# ==========================
+# Configuration
 extracted_root = "results/extracted"
 summary_root = "results/summaries"
 model_name = "gemini-2.0-flash" 
 
 
-# ==========================
-# LOAD API KEY
-# ==========================
+# Loading API key
 load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY not found in .env")
 
+# Initialize Gemini client
 client = genai.Client(api_key=API_KEY)
 
 
-# ==========================
-# SUMMARIZATION FUNCTION
-# ==========================
+# Summarization function
 def summarize_text(text: str) -> str:
+    
     prompt = f"""
 You are an expert documentation analyst.
 
@@ -43,6 +76,7 @@ DOCUMENT:
 {text}
 """
 
+    # Send request to Gemini model
     response = client.models.generate_content(
         model=model_name,
         contents=prompt
@@ -51,14 +85,14 @@ DOCUMENT:
     return response.text
 
 
-# ==========================
-# PROCESS ALL FILES
-# ==========================
+# Processing extracted files and generate summaries
 def main():
+    
     if not os.path.exists(extracted_root):
         print("Extracted folder not found.")
         return
 
+    # Iterate over parser subfolders
     for parser_folder in os.listdir(extracted_root):
         parser_path = os.path.join(extracted_root, parser_folder)
 
@@ -96,8 +130,5 @@ def main():
                 print(f"  Error processing {filename}: {e}")
 
 
-# ==========================
-# MAIN
-# ==========================
 if __name__ == "__main__":
     main()

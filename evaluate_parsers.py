@@ -1,97 +1,143 @@
 #!/usr/bin/env python3
 """
-Evaluate selected parsers on data/pdfs and data/docx using WER.
-No config.py required: choose parsers via CLI args (--pdf-parsers, --docx-parsers).
+evaluate_parsers.py - simple WER-based parser evaluation.
+
+This script evaluates different document parsers using Word Error Rate (WER).
+It:
+    - Reads PDFs from a specified directory
+    - Extracts text using each parser in parsers.PARSERS
+    - Compares extracted text against reference .txt files
+    - Computes Word Error Rate (WER)
+    - Writes results to a CSV file
+
+Usage:
+python evaluate_parsers.py 
+    --pdfs-dir data/pdfs 
+    --refs-dir data/ground_truth 
+    --out results/eval.csv
+
+Expected Structure:
+- For each <name>.pdf in pdfs_dir
+  there must be a corresponding <name>.txt in refs_dir
+
+Required Libraries:
+- os        : File system operations
+- csv       : Writing evaluation results
+- argparse  : CLI argument parsing
+- parsers   : Access available extraction methods
+- convert_document - Text extraction utility
+
+Input:
+- Directory of PDF files
+- Directory of reference TXT files
+
+Output:
+- CSV file with columns:
+    pdf | parser | wer | error
 """
+
 import os
+import csv
 import argparse
-import pandas as pd
-from jiwer import wer, Compose, RemovePunctuation, ToLowerCase, RemoveMultipleSpaces
+
 from parsers import PARSERS
+from convert_document import extract_with_fallback
 
-DATA_DIR = "data"
-PDFS_DIR = os.path.join(DATA_DIR, "pdfs")
-DOCX_DIR = os.path.join(DATA_DIR, "docx")
-GROUND_DIR = os.path.join(DATA_DIR, "ground_truth")
-RESULTS_DIR = "results"
-EXTRACTED_DIR = os.path.join(RESULTS_DIR, "extracted")
-os.makedirs(RESULTS_DIR, exist_ok=True)
-os.makedirs(EXTRACTED_DIR, exist_ok=True)
+# Compute Word Error Rate (WER) between reference and hypothesis text.
+def wer(ref: str, hyp: str) -> float:
+    
+    # Split texts into word tokens
+    r = ref.split()
+    h = hyp.split()
+    n = len(r)
+    
+    # Initialize dynamic programming matrix
+    d = [[0] * (len(h) + 1) for _ in range(len(r) + 1)]
+    
+    # Base case initialization
+    for i in range(len(r) + 1):
+        d[i][0] = i
+    for j in range(len(h) + 1):
+        d[0][j] = j
+    
+    # Compute edit distance using dynamic programming matrix
+    for i in range(1, len(r) + 1):
+        for j in range(1, len(h) + 1):
+            cost = 0 if r[i-1] == h[j-1] else 1
+            d[i][j] = min(
+                d[i-1][j] + 1,      # deletion
+                d[i][j-1] + 1,      # insertion
+                d[i-1][j-1] + cost  # substitution
+                )
+    
+    edits = d[len(r)][len(h)]
+    
+    return (edits / n) if n > 0 else (0.0 if edits == 0 else 1.0)
 
-# Normalization for WER
-TRANSFORM = Compose([ToLowerCase(), RemovePunctuation(), RemoveMultipleSpaces()])
-
-def load_ground(basename):
-    path = os.path.join(GROUND_DIR, basename + ".txt")
-    if not os.path.exists(path):
-        return None
-    with open(path, "r", encoding="utf8") as f:
-        return f.read()
-
-def collect_files():
-    pdfs = [os.path.join(PDFS_DIR, f) for f in os.listdir(PDFS_DIR) if f.lower().endswith(".pdf")] if os.path.isdir(PDFS_DIR) else []
-    docx = [os.path.join(DOCX_DIR, f) for f in os.listdir(DOCX_DIR) if f.lower().endswith(".docx")] if os.path.isdir(DOCX_DIR) else []
-    return pdfs, docx
-
-def evaluate_files(paths, parser_name):
+# Evaluate all parsers on given PDFs and write WER results to CSV
+def evaluate(pdfs_dir: str, refs_dir: str, out_csv: str):
+    
+    # Get sorted list of PDF files
+    pdfs = sorted([f for f in os.listdir(pdfs_dir) if f.lower().endswith(".pdf")])
     rows = []
-    parser_callable = PARSERS.get(parser_name)
-    if parser_callable is None:
-        print(f"[WARN] Parser '{parser_name}' not available; skipping.")
-        return rows
-    for path in paths:
-        basename = os.path.splitext(os.path.basename(path))[0]
-        reference = load_ground(basename)
-        if reference is None:
-            print(f"[WARN] Ground truth missing for {basename}; skipping.")
-            continue
-        print(f"[{parser_name}] Extracting {basename} ...")
-        try:
-            text = parser_callable(path)
-        except Exception as e:
-            print(f"[ERROR] Parser {parser_name} failed on {basename}: {e}")
-            text = ""
-        # save extracted text for inspection
-        out_dir = os.path.join(EXTRACTED_DIR, parser_name)
-        os.makedirs(out_dir, exist_ok=True)
-        with open(os.path.join(out_dir, basename + ".txt"), "w", encoding="utf8") as f:
-            f.write(text)
-        ref_norm = TRANSFORM(reference)
-        hyp_norm = TRANSFORM(text)
-        score = wer(ref_norm, hyp_norm)
-        rows.append({"file": basename, "parser": parser_name, "wer": score})
-    return rows
 
+    for pdf in pdfs:
+        base = os.path.splitext(pdf)[0]
+        refpath = os.path.join(refs_dir, base + ".txt")
+
+        # Skip if no reference file exists
+        if not os.path.exists(refpath):
+            print(f"[SKIP] No reference for {pdf}")
+            continue
+
+        # Load reference text
+        with open(refpath, "r", encoding="utf8", errors="replace") as rf:
+            ref = rf.read().strip()
+        
+        path = os.path.join(pdfs_dir, pdf)
+        
+        # Evaluate each parser
+        for parser_name in PARSERS.keys():
+            try:
+                hyp = extract_with_fallback(path, parser=parser_name)
+            except Exception as e:
+                print(f"[ERROR] {pdf} with {parser_name}: {e}")
+                rows.append({"pdf": pdf, "parser": parser_name, "wer": "", "error": str(e)})
+                continue
+
+            score = wer(ref, hyp)
+            print(f"{pdf} | {parser_name} -> WER={score:.4f}")
+
+            rows.append({
+                "pdf": pdf,
+                "parser": parser_name,
+                "wer": f"{score:.4f}", "error": ""
+            })
+
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(out_csv) or ".", exist_ok=True)
+
+    # Write results to CSV
+    with open(out_csv, "w", newline="", encoding="utf8") as cf:
+        writer = csv.DictWriter(cf, fieldnames=["pdf", "parser", "wer", "error"])
+        writer.writeheader()
+        for r in rows:
+            writer.writerow(r)
+    
+    print(f"Wrote evaluation CSV to {out_csv}")
+
+# CLI entry point for parser evaluation.
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--pdf-parsers", nargs="*", help="List of parsers to run for PDFs (default: pymupdf ocr)")
-    ap.add_argument("--docx-parsers", nargs="*", help="List of parsers to run for DOCX (default: docx)")
+    
+    # Configure CLI arguments
+    ap = argparse.ArgumentParser(prog="evaluate_parsers.py")
+    ap.add_argument("--pdfs-dir", default="data/pdfs")
+    ap.add_argument("--refs-dir", default="data/ground_truth")
+    ap.add_argument("--out", default="results/eval_parsers.csv")
+
     args = ap.parse_args()
 
-    pdf_parsers = args.pdf_parsers or ["pymupdf", "ocr"]
-    docx_parsers = args.docx_parsers or ["docx"]
+    evaluate(args.pdfs_dir, args.refs_dir, args.out)
 
-    pdfs, docx_files = collect_files()
-    if not pdfs and not docx_files:
-        print("No input files found in data/pdfs or data/docx")
-        return
-
-    all_rows = []
-    # PDF parsers
-    if pdfs:
-        for p in pdf_parsers:
-            all_rows.extend(evaluate_files(pdfs, p))
-    # DOCX parsers
-    if docx_files:
-        for p in docx_parsers:
-            all_rows.extend(evaluate_files(docx_files, p))
-
-    df = pd.DataFrame(all_rows)
-    csv_path = os.path.join(RESULTS_DIR, "wer_results.csv")
-    df.to_csv(csv_path, index=False)
-    print(f"Results written to {csv_path}")
-    if not df.empty:
-        print("\nMean WER per parser:")
-        print(df.groupby("parser")["wer"].mean().sort_values())
 if __name__ == "__main__":
     main()

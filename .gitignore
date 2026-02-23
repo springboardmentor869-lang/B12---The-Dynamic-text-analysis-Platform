@@ -17,3 +17,7 @@ en_core_web_sm/
 # Project data
 results/
 data/
+tests/
+
+# Learning files
+summarizer.py

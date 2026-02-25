@@ -18,6 +18,8 @@ en_core_web_sm/
 results/
 data/
 tests/
+dataset/
 
 # Learning files
 summarizer.py
+topic_modelling.py

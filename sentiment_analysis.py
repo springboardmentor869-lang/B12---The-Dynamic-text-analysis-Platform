@@ -1,27 +1,34 @@
 """
-sentiment_analysis.py
+sentiment_analysis.py - sentence and document-level sentiment analysis utility.
 
-This module performs sentence-level and document-level sentiment analysis
-on preprocessed text files using a Hugging Face Transformer model.
+Description:
+This module performs sentence-level sentiment analysis on extracted text files
+and computes an overall document sentiment using weighted average confidence.
+
+CLI: python sentiment_analysis.py
 
 Model Used:
-    cardiffnlp/twitter-roberta-base-sentiment
+- cardiffnlp/twitter-roberta-base-sentiment (Hugging Face Transformer)
 
 Libraries Used:
-- os → File and directory handling
-- re → Sentence splitting using regex
-- transformers → Hugging Face pipeline for sentiment analysis
-- dotenv → Load environment variables
-- huggingface_hub → Authenticate using Hugging Face token
+Requires:
+- transformers      : Hugging Face pipeline for sentiment analysis
+- torch             : Backend for transformer model
+- huggingface-hub   : Optional authentication for model access
+- huggingface_hub   : Authenticate using Hugging Face token
+- python-dotenv     : Load environment variables
+- os                : File and directory handling
+- re                : Sentence splitting
+- dotenv            : Load environment variables
 
 Environment Variable Required (Optional but Recommended):
-- HF_TOKEN → Hugging Face access token for private/large model access
+- HF_TOKEN : Hugging Face access token
 
 Input:
-    results/preprocessed/*.txt
+- results/extracted/<parser_name>/*.txt
 
 Output:
-    results/sentiment/*_sentiment.txt
+- results/sentiment/<parser_name>/*_sentiment.txt
 """
 
 import os
@@ -64,6 +71,7 @@ label_map = {
 
 # Performs sentence-level sentiment analysis and computes overall document sentiment
 def analyze_document(text):
+    
     sentences = split_sentences(text)
 
     results = []
@@ -101,8 +109,10 @@ def analyze_document(text):
     return results, counts, overall_sentiment
 
 
+# Process all extracted text files and generate sentiment reports
 def main():
 
+    # Traverse extracted folder recursively (docx / ocr / pymupdf subfolders)
     for root, dirs, files in os.walk(input_folder):
         for filename in files:
 

@@ -11,7 +11,6 @@ Model Used:
 - cardiffnlp/twitter-roberta-base-sentiment (Hugging Face Transformer)
 
 Libraries Used:
-Requires:
 - transformers      : Hugging Face pipeline for sentiment analysis
 - torch             : Backend for transformer model
 - huggingface-hub   : Optional authentication for model access

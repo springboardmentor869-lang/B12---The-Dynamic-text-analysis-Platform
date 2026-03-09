@@ -1,3 +1,5 @@
+B12---The-Dynamic-text-analysis-Platform
+
 # Virtual environment
 .venv/
 env/
@@ -19,7 +21,12 @@ results/
 data/
 tests/
 dataset/
+models/
 
-# Learning files
+# Learning files - extra
 summarizer.py
 topic_modelling.py
+topic_modelling2.py
+train_topic_model
+inferenc.py
+inferen.py

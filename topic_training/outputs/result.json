@@ -1,0 +1,44 @@
+{
+    "file": "C:\\Users\\asnaa\\OneDrive\\Desktop\\dynamic_text_analysis\\topic_training\\markdown_outputs\\sample.md",
+    "dominant_topic": {
+        "topic_id": 0,
+        "label": "artificial intelligence machine",
+        "avg_similarity_score": 0.504,
+        "chunks_matched": 2,
+        "total_chunks": 3
+    },
+    "all_topics_found": [
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "chunks_matched": 2,
+            "avg_score": 0.504
+        },
+        {
+            "topic_id": 15,
+            "label": "energy renewable markets",
+            "chunks_matched": 1,
+            "avg_score": 0.5262
+        }
+    ],
+    "chunk_details": [
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "score": 0.4805,
+            "preview": "Artificial intelligence has become one of the most transformative technologies of the twenty-first c"
+        },
+        {
+            "topic_id": 15,
+            "label": "energy renewable markets",
+            "score": 0.5262,
+            "preview": "allowing remote regions to access high-speed communication networks that were previously unavailable"
+        },
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "score": 0.5274,
+            "preview": "to personalize learning experiences and provide immediate feedback to students. As artificial intell"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+PDF Parser Evaluation Test Document
+
+This document is created for testing PDF text extraction accuracy.
+The purpose of this file is to compare multiple PDF parsing libraries.
+We will evaluate the extracted text using Word Error Rate metric.
+
+This is a sample paragraph to ensure proper evaluation.
+The quick brown fox jumps over the lazy dog.

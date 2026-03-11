@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../document-conversion-module-main"
+		},
+		{
+			"path": "../financial-text-preprocessing-main"
+		},
+		{
+			"path": "../pdf-parser-evaluation-main"
+		},
+		{
+			"path": "../sentiment-analysis-module-main"
+		},
+		{
+			"path": "../text-summarization-module-main"
+		},
+		{
+			"path": "../topic_model_training-main"
+		}
+	]
+}

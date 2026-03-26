@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ner-project"
+version = "0.1.0"
+description = "Dynamic Text analyzer"
+requires-python = ">=3.11"
+dependencies = [
+    "bertopic>=0.17.4",
+    "docling",
+    "google-genai>=1.62.0",
+    "google-generativeai",
+    "numpy>=2.4.2",
+    "openai>=2.17.0",
+    "python-dotenv",
+    "scikit-learn>=1.8.0",
+    "sentence-transformers>=5.2.3",
+]
+
+[tool.setuptools]
+packages = []
+py-modules = ["ner_extractor"]  # List your modules here, e.g., if you add document_converter.py later
+
+[tool.setuptools.package-data]
+"*" = ["*.txt", "*.md"]

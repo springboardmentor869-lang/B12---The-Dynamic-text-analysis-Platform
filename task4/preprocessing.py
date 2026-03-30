@@ -74,7 +74,7 @@ stemming_text = " ".join(stemmed)
 stemming_output = "# Stemming Results\n\n"
 stemming_output += stemming_text
 
-with open(r'..\processed_data\stemming_results.md', 'w', encoding='utf-8') as file:
+with open(r'stemming_results.md', 'w', encoding='utf-8') as file:
     file.write(stemming_output)
 
 # Create Lemmatization Results
@@ -82,7 +82,7 @@ lemmatization_text = " ".join(lemmatized)
 lemmatization_output = "# Lemmatization Results\n\n"
 lemmatization_output += lemmatization_text
 
-with open(r'..\processed_data\lemmatization_results.md', 'w', encoding='utf-8') as file:
+with open(r'lemmatization_results.md', 'w', encoding='utf-8') as file:
     file.write(lemmatization_output)
 
 print("\n✓ Stemming results saved to: processed_data/stemming_results.md")

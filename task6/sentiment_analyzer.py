@@ -146,6 +146,14 @@ def main(file_path):
     else: overall_label = "NEUTRAL"
 
     # 4. Output Report
+    # --- NEW: Get 5 Example Sentences ---
+    examples_html = ""
+    # We take up to 5 items from the results list
+    for i, item in enumerate(results[:5]):
+        snippet = item.get("sentence_snippet", "N/A")
+        sentiment = item.get("sentiment", "Neutral")
+        conf = item.get("confidence", 0)
+        examples_html += f"* **Example {i+1}:** \"{snippet}...\" | **Sentiment:** {sentiment} | **Confidence:** {conf:.2f}\n"
     report = f"""
 ### SENTIMENT ANALYSIS REPORT
 **File:** {file_path}
@@ -170,11 +178,94 @@ def main(file_path):
     print(f" Positive: {stats['Positive']} | Negative: {stats['Negative']} | Neutral: {stats['Neutral']}")
     print(f" Saved report to '{output_file}'")
     print("="*40)
+    print(" 5 EXAMPLES FROM TEXT:")
+    print(examples_html.strip()) # This prints the examples to your terminal
+    print("-" * 40)
     print(f" FINAL REPORT SUMMARY:")
     print(f" -> Overall Sentiment: {overall_label}")
     print(f" -> Sentiment Score:   {overall_score:.2f} (Scale: -1 to +1)")
     print(f" -> Avg. Confidence:   {avg_confidence:.1%}")
     print("=" * 40)
+
+def analyze_text_sentiment(text: str) -> dict:
+    """Analyze sentiment of raw text without reading from file."""
+    print(f"1. Processing text ({len(text)} characters)...")
+    
+    all_sentences = nltk.sent_tokenize(text)
+    all_sentences = [s for s in all_sentences if len(s) > 20]
+    
+    print(f"   -> Found {len(all_sentences)} valid sentences.")
+    
+    # Parallel Processing
+    BATCH_SIZE = 20 
+    batches = [all_sentences[i:i + BATCH_SIZE] for i in range(0, len(all_sentences), BATCH_SIZE)]
+    
+    print(f"2. Analyzing {len(batches)} batches in PARALLEL...")
+    results = []
+    
+    def process_wrapper(args):
+        b, idx, tot = args
+        return analyze_sentiment_batch(b, idx, tot)
+    
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = [executor.submit(process_wrapper, (b, i+1, len(batches))) for i, b in enumerate(batches)]
+        for future in as_completed(futures):
+            res = future.result()
+            results.extend(res)
+            print(f"   ✓ Batch finished ({len(res)} items)")
+    
+    # Statistics 
+    print("\n3. Calculating Statistics...")
+    
+    stats = {"Positive": 0, "Negative": 0, "Neutral": 0}
+    total_confidence = 0
+    valid_count = 0
+    per_sentence = []
+    
+    for item in results:
+        if not isinstance(item, dict):
+            continue 
+        
+        sent = item.get("sentiment", "Neutral").capitalize()
+        if "Pos" in sent: sent = "Positive"
+        elif "Neg" in sent: sent = "Negative"
+        else: sent = "Neutral"
+        
+        if sent in stats: stats[sent] += 1
+        else: stats["Neutral"] += 1
+        
+        confidence = item.get("confidence", 0)
+        total_confidence += confidence
+        valid_count += 1
+        
+        per_sentence.append({
+            "sentence": item.get("sentence_snippet", ""),
+            "label": sent.lower(),
+            "score": confidence
+        })
+    
+    avg_confidence = total_confidence / valid_count if valid_count > 0 else 0
+    
+    if valid_count > 0:
+        overall_score = (stats["Positive"] - stats["Negative"]) / valid_count
+    else:
+        overall_score = 0
+    
+    if overall_score > 0.15: overall_label = "positive"
+    elif overall_score < -0.15: overall_label = "negative"
+    else: overall_label = "neutral"
+    
+    print(f"\n" + "="*40)
+    print(f" ANALYSIS COMPLETE: {overall_label.upper()}")
+    print(f" Positive: {stats['Positive']} | Negative: {stats['Negative']} | Neutral: {stats['Neutral']}")
+    print("="*40)
+    
+    return {
+        "overall_sentiment": overall_label,
+        "per_sentence": per_sentence,
+        "stats": stats,
+        "avg_confidence": avg_confidence
+    }
 
 if __name__ == "__main__":
     main(r"..\processed_data\financial_doc.md")

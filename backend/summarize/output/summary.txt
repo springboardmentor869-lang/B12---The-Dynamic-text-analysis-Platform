@@ -1,0 +1,1 @@
+Artificial Intelligence (AI) is one of the most transformative technologies of the 21st century. It enables machines to simulate human intelligence, including learning, problem-solving, and decision-making. Machine Learning is a key branch of AI that allows systems to learn from data without explicit programming.

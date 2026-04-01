@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Topic Classification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-brand" href="home.html">
+            DocuSense
+        </a>
+    </nav>
+
+    <div class="container" style="padding: 0 0 0 0;">
+
+        <h2>Topic Classification</h2>
+
+        <div class="main-box">
+
+            <!-- Upload Box -->
+            <div class="box upload-box">
+                <h3>Upload Document</h3>
+
+                <label for="fileInput" class="file-drop">
+
+                    <input type="file" id="fileInput" accept=".pdf,.docx">
+
+                </label>
+
+                <button onclick="uploadAndClassify()">Run Classification</button>
+            </div>
+
+            <!-- Output Box -->
+            <div class="box output-box">
+                <h3>Result</h3>
+                <div id="output" class="output-container">Output will appear here...</div>
+            </div>
+
+        </div>
+
+        <br>
+        <a href="home.html">Back</a>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

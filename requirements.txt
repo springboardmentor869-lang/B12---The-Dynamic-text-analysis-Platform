@@ -16,3 +16,6 @@ transformers
 torch
 huggingface-hub
 google-genai
+fastapi
+uvicorn
+python-multipart

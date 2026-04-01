@@ -10,6 +10,9 @@ B12 is a comprehensive, enterprise-grade text analysis platform that combines ad
 
 The platform demonstrates a complete pipeline from raw document ingestion through sophisticated AI-powered analytics, utilizing state-of-the-art libraries and APIs for production-ready text intelligence.
 
+<img width="1901" height="940" alt="image" src="https://github.com/user-attachments/assets/522515d8-5d9f-4499-8b34-923ce732567e" />
+<img width="1902" height="942" alt="image" src="https://github.com/user-attachments/assets/703bd48a-5686-422b-b730-71432a8b7194" />
+
 ## Key Features
 
 - **📄 Multi-Format Document Parsing**: Support for PDF, DOCX, PPTX, HTML, and image formats with layout preservation

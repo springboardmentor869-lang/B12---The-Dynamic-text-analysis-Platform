@@ -1,4 +1,4 @@
-# B12 - The Dynamic Text Analysis Platform
+# The Dynamic Text Analysis Platform
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/backend-Python%203.9%2B-blue)
@@ -6,7 +6,7 @@
 
 ## Overview
 
-B12 is a comprehensive, enterprise-grade text analysis platform that combines advanced Natural Language Processing (NLP) capabilities with a modern web interface. It provides end-to-end document processing, analysis, and insights through a scalable REST API powered by machine learning and LLM integration.
+Dynamic Text Analysis Platform is a comprehensive, enterprise-grade text analysis platform that combines advanced Natural Language Processing (NLP) capabilities with a modern web interface. It provides end-to-end document processing, analysis, and insights through a scalable REST API powered by machine learning and LLM integration.
 
 The platform demonstrates a complete pipeline from raw document ingestion through sophisticated AI-powered analytics, utilizing state-of-the-art libraries and APIs for production-ready text intelligence.
 

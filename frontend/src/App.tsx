@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import type { ChangeEvent } from 'react';
 import './App.css';
 import type { 
@@ -10,6 +10,12 @@ import type {
 } from './types';
 import ReactMarkdown from 'react-markdown';
 import jsPDF from 'jspdf';
+import { 
+  WordCloud, 
+  SentimentDistributionChart, 
+  TopicDistributionChart, 
+  SentimentTrendChart
+} from './Visualizations';
 
 // --- Clean SVG Icons ---
 const Icons = {
@@ -324,27 +330,38 @@ export default function App() {
                   ? (reportData.data as AnalysisResults).topic_modeling 
                   : (reportData.data as TopicModelResponse);
                 return (
-                  <section className="content-card">
-                    <div className="card-header">
-                      <h3 className="section-title">Dominant Topics</h3>
-                    </div>
-                    
-                    <div className="primary-stat-box">
-                      <div className="stat-label">Primary Classification</div>
-                      <div className="stat-value">{topicData.dominant_topic.label}</div>
-                      <div className="stat-sub">Matched {topicData.dominant_topic.chunks_matched} of {topicData.dominant_topic.total_chunks} chunks</div>
-                    </div>
-                    
-                    <h4 className="sub-heading">Confidence Distribution</h4>
-                    <div className="topic-list">
-                      {topicData.all_topics_found.map(t => (
-                        <div key={t.topic_id} className="topic-row">
-                          <span className="topic-name">{t.label}</span>
-                          <ConfidenceRing score={t.avg_score} />
-                        </div>
-                      ))}
-                    </div>
-                  </section>
+                  <>
+                    <section className="content-card full-width">
+                      <div className="card-header">
+                        <h3 className="section-title">Topic Distribution</h3>
+                      </div>
+                      <TopicDistributionChart topicData={topicData} />
+                    </section>
+
+
+
+                    <section className="content-card">
+                      <div className="card-header">
+                        <h3 className="section-title">Dominant Topics</h3>
+                      </div>
+                      
+                      <div className="primary-stat-box">
+                        <div className="stat-label">Primary Classification</div>
+                        <div className="stat-value">{topicData.dominant_topic.label}</div>
+                        <div className="stat-sub">Matched {topicData.dominant_topic.chunks_matched} of {topicData.dominant_topic.total_chunks} chunks</div>
+                      </div>
+                      
+                      <h4 className="sub-heading">Confidence Distribution</h4>
+                      <div className="topic-list">
+                        {topicData.all_topics_found.map(t => (
+                          <div key={t.topic_id} className="topic-row">
+                            <span className="topic-name">{t.label}</span>
+                            <ConfidenceRing score={t.avg_score} />
+                          </div>
+                        ))}
+                      </div>
+                    </section>
+                  </>
                 );
               })()}
 
@@ -358,29 +375,45 @@ export default function App() {
                 const sentimentColor = overallSent.includes('positive') ? 'success' : overallSent.includes('negative') ? 'danger' : 'neutral';
 
                 return (
-                  <section className="content-card">
-                    <div className="card-header">
-                      <h3 className="section-title">Sentiment Analysis</h3>
-                    </div>
-                    
-                    <div className={`primary-stat-box sentiment-${sentimentColor}`}>
-                      <div className="stat-label">Overall Document Tone</div>
-                      <div className="stat-value capitalize">{sentData.overall_sentiment}</div>
-                    </div>
+                  <>
+                    <section className="content-card">
+                      <div className="card-header">
+                        <h3 className="section-title">Sentiment Analysis</h3>
+                      </div>
+                      
+                      <div className={`primary-stat-box sentiment-${sentimentColor}`}>
+                        <div className="stat-label">Overall Document Tone</div>
+                        <div className="stat-value capitalize">{sentData.overall_sentiment}</div>
+                      </div>
 
-                    <h4 className="sub-heading">Sentence Level Breakdown</h4>
-                    <div className="sentence-list">
-                      {sentData.per_sentence.map((s, i) => (
-                        <div key={i} className="sentence-row">
-                          <div className="sentence-meta">
-                            <span className={`pill pill-${s.label.toLowerCase()}`}>{s.label}</span>
-                            <span className="confidence-text">{Math.round(s.score * 100)}% Match</span>
+                      <h4 className="sub-heading">Sentence Level Breakdown</h4>
+                      <div className="sentence-list">
+                        {sentData.per_sentence.slice(0, 5).map((s, i) => (
+                          <div key={i} className="sentence-row">
+                            <div className="sentence-meta">
+                              <span className={`pill pill-${s.label.toLowerCase()}`}>{s.label}</span>
+                              <span className="confidence-text">{Math.round(s.score * 100)}% Match</span>
+                            </div>
+                            <p className="sentence-content">"{s.sentence}"</p>
                           </div>
-                          <p className="sentence-content">"{s.sentence}"</p>
-                        </div>
-                      ))}
-                    </div>
-                  </section>
+                        ))}
+                      </div>
+                    </section>
+
+                    <section className="content-card">
+                      <div className="card-header">
+                        <h3 className="section-title">Sentiment Distribution</h3>
+                      </div>
+                      <SentimentDistributionChart sentimentData={sentData} />
+                    </section>
+
+                    <section className="content-card full-width">
+                      <div className="card-header">
+                        <h3 className="section-title">Sentiment Trend Analysis</h3>
+                      </div>
+                      <SentimentTrendChart sentimentData={sentData} />
+                    </section>
+                  </>
                 );
               })()}
             </div>

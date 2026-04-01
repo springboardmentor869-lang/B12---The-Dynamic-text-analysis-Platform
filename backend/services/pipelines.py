@@ -1,3 +1,4 @@
+import re
 import sys
 from pathlib import Path
 from typing import Dict
@@ -41,8 +42,8 @@ def run_topic_pipeline(text: str) -> dict:
         try:
             tid = int(float(topic_id)) if str(topic_id) != "Unknown" else -1
         except Exception:
-            tid = -1
-        
+            tid = -1 
+            
         chunk_details.append({"chunk_id": idx + 1, "preview": chunk[:100] + "...", "topic_id": tid, "label": label, "score": float(confidence), "keywords": []})
         if tid not in topic_counts: topic_counts[tid] = {"label": label, "scores": []}
         topic_counts[tid]["scores"].append(float(confidence))

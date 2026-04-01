@@ -15,6 +15,7 @@ The platform demonstrates a complete pipeline from raw document ingestion throug
 - **📄 Multi-Format Document Parsing**: Support for PDF, DOCX, PPTX, HTML, and image formats with layout preservation
 - **🔍 Intelligent Text Analysis**: Document summarization, sentiment analysis, and topic modeling
 - **🧠 Advanced Topic Modeling**: BERTopic-powered unsupervised topic discovery with LLM-enhanced labeling
+- **📊 Interactive Visualizations**: Comprehensive charts, word clouds, and trend analysis for insights
 - **🌐 RESTful API**: FastAPI backend with comprehensive endpoints for all analysis tasks
 - **💻 Modern Web Interface**: React-based frontend for document processing and results visualization
 - **⚡ Concurrent Processing**: Batch processing capabilities for large-scale text analysis
@@ -34,6 +35,7 @@ The platform demonstrates a complete pipeline from raw document ingestion throug
 - **Framework**: React 19
 - **Language**: TypeScript
 - **Build Tool**: Vite
+- **Charting**: Recharts for interactive visualizations
 - **PDF Export**: jsPDF, react-to-pdf
 - **Markdown Rendering**: react-markdown
 
@@ -265,6 +267,16 @@ Raw Documents (PDF, DOCX, PPTX, etc.)
 - **Layout preservation**: Maintains document structure in Markdown output
 - **Batch processing**: Handle multiple documents concurrently
 - **Format evaluation**: Comparative analysis of parsing libraries with WER metrics
+
+### 📊 Interactive Visualizations
+- **Word Clouds**: Visual representation of key themes and keywords
+- **Topic Distribution Charts**: Bar charts showing all discovered topics with confidence scores
+- **Sentiment Distribution**: Pie charts for positive/negative/neutral sentiment breakdowns
+- **Sentiment Trend Analysis**: Scatter plots showing sentiment evolution through the document
+- **Custom Tooltips**: Interactive hover information for detailed insights
+- **PDF Export**: All visualizations included in exported reports
+
+For detailed visualization documentation, see [VISUALIZATIONS.md](VISUALIZATIONS.md)
 
 ### 🧠 Intelligent Analysis
 - **Sentiment Analysis**: LLM-powered sentiment detection with concurrent processing

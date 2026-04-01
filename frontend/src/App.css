@@ -409,6 +409,249 @@ body {
 .pulse-text { animation: pulse 2s infinite; }
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
 
+/* --- Visualization Styles --- */
+
+/* Word Cloud */
+.word-cloud-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 1rem;
+  min-height: 280px;
+}
+
+.word-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(168, 85, 247, 0.08));
+  border-radius: 12px;
+  border: 1px solid var(--border-light);
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.word-cloud.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.word-cloud-item {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.word-cloud-item:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Chart Containers */
+.chart-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.chart-container .recharts-wrapper {
+  margin: 0 auto;
+}
+
+/* Custom Tooltips */
+.custom-tooltip {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: var(--text-main);
+  z-index: 1000;
+}
+
+.custom-tooltip .label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.sentiment-text { font-size: 0.8rem; color: var(--text-muted); }
+.sentiment-label.positive { color: var(--success); font-weight: 700; }
+.sentiment-label.negative { color: var(--danger); font-weight: 700; }
+.sentiment-label.neutral { color: #94a3b8; font-weight: 700; }
+
+.chart-legend-margin-top { margin-top: 1rem; }
+.legend-color-positive { background-color: var(--success); }
+.legend-color-negative { background-color: var(--danger); }
+.legend-color-neutral { background-color: #6b7280; }
+
+.no-data-box {
+  padding: 2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.word-cloud-item.weight-0 { font-size: 14px; opacity: 0.6; color: hsl(220, 65%, 55%); }
+.word-cloud-item.weight-1 { font-size: 15px; opacity: 0.62; }
+.word-cloud-item.weight-2 { font-size: 16px; opacity: 0.64; }
+.word-cloud-item.weight-3 { font-size: 18px; opacity: 0.66; }
+.word-cloud-item.weight-4 { font-size: 20px; opacity: 0.68; }
+.word-cloud-item.weight-5 { font-size: 22px; opacity: 0.70; }
+.word-cloud-item.weight-6 { font-size: 24px; opacity: 0.74; }
+.word-cloud-item.weight-7 { font-size: 26px; opacity: 0.78; }
+.word-cloud-item.weight-8 { font-size: 30px; opacity: 0.82; }
+.word-cloud-item.weight-9 { font-size: 34px; opacity: 0.88; }
+.word-cloud-item.weight-10 { font-size: 40px; opacity: 1; }
+
+.word-cloud-item { background: rgba(255, 255, 255, 0.02); border-radius: 6px; padding: 0.5rem 0.75rem; display: inline-block; margin: 0.35rem; line-height: 1.3; }
+.word-cloud-item:hover { transform: scale(1.2); filter: brightness(1.3); background: rgba(255, 255, 255, 0.05); }
+
+.no-data-text { color: rgba(255, 255, 255, 0.5); text-align: center; }
+
+.pie-cell.pie-positive { fill: var(--success); }
+.pie-cell.pie-negative { fill: var(--danger); }
+.pie-cell.pie-neutral { fill: #6b7280; }
+
+.custom-tooltip p {
+  font-size: 0.85rem;
+  margin: 0.25rem 0;
+  color: var(--text-muted);
+}
+
+.custom-tooltip .text {
+  font-size: 0.8rem;
+  color: var(--text-dark);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Chart Legend */
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+/* Chart Styling for Recharts */
+.recharts-text {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.recharts-cartesian-axis-tick {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.recharts-pie-sector {
+  transition: all 0.3s ease;
+}
+
+.recharts-pie-sector:hover {
+  filter: brightness(1.1);
+}
+
+.recharts-bar {
+  transition: all 0.3s ease;
+}
+
+.recharts-bar:hover {
+  opacity: 0.9;
+  filter: brightness(1.05);
+}
+
+/* Sentiment Statistics */
+.sentiment-success {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05));
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.sentiment-danger {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(239, 68, 68, 0.05));
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.sentiment-neutral {
+  background: linear-gradient(135deg, rgba(107, 114, 128, 0.1), rgba(107, 114, 128, 0.05));
+  border-color: rgba(107, 114, 128, 0.3);
+}
+
+/* Responsive Chart Styling */
+@media (max-width: 1024px) {
+  .report-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .word-cloud {
+    padding: 1rem;
+  }
+  
+  .chart-container {
+    padding: 0.75rem;
+  }
+}
+
+/* Animations for Visualizations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.word-cloud-item {
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+.word-cloud-item:nth-child(1) { animation-delay: 0.05s; }
+.word-cloud-item:nth-child(2) { animation-delay: 0.1s; }
+.word-cloud-item:nth-child(3) { animation-delay: 0.15s; }
+.word-cloud-item:nth-child(n+4) { animation-delay: 0.2s; }
+
 /* --- PDF/Print Styles --- */
 @media print {
   * { background: transparent !important; color: #000000 !important; }

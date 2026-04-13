@@ -1,4 +1,4 @@
-# B12 - The Dynamic Text Analysis Platform
+# The Dynamic Text Analysis Platform
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/backend-Python%203.9%2B-blue)
@@ -6,9 +6,12 @@
 
 ## Overview
 
-B12 is a comprehensive, enterprise-grade text analysis platform that combines advanced Natural Language Processing (NLP) capabilities with a modern web interface. It provides end-to-end document processing, analysis, and insights through a scalable REST API powered by machine learning and LLM integration.
+Dynamic Text Analysis Platform is a comprehensive, enterprise-grade text analysis platform that combines advanced Natural Language Processing (NLP) capabilities with a modern web interface. It provides end-to-end document processing, analysis, and insights through a scalable REST API powered by machine learning and LLM integration.
 
 The platform demonstrates a complete pipeline from raw document ingestion through sophisticated AI-powered analytics, utilizing state-of-the-art libraries and APIs for production-ready text intelligence.
+
+<img width="1901" height="940" alt="image" src="https://github.com/user-attachments/assets/522515d8-5d9f-4499-8b34-923ce732567e" />
+<img width="1902" height="942" alt="image" src="https://github.com/user-attachments/assets/703bd48a-5686-422b-b730-71432a8b7194" />
 
 ## Key Features
 
@@ -491,26 +494,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Phase 5**: API deployment and backend integration
 - **Phase 6**: Frontend development and visualization
 
-## Roadmap
-
-### v1.1 (Planned)
-- [ ] Multi-language support
-- [ ] Advanced visualization dashboard
-- [ ] Real-time collaborative analysis
-- [ ] Model fine-tuning interface
-
-### v1.2 (Planned)
-- [ ] GraphDB integration for entity relationships
-- [ ] Knowledge graph extraction
-- [ ] Advanced search capabilities
-- [ ] Batch processing optimization
-
-### v2.0 (Long-term)
-- [ ] Distributed processing support
-- [ ] Custom model training UI
-- [ ] Advanced reporting and analytics
-- [ ] Enterprise integrations
-
 ## Support & Contact
 
 For issues, feature requests, or questions:
@@ -528,5 +511,3 @@ For issues, feature requests, or questions:
 ---
 
 **Last Updated**: March 2026
-**Maintainer**: B12 Development Team
-**Status**: Active Development

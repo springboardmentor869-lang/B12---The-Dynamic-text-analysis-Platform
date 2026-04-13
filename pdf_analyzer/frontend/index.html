@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Analyzer</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>📄 PDF Analyzer</h2>
+    <p class="subtitle">AI-powered document insights</p>
+
+    <!-- Upload -->
+    <div class="upload-section">
+        <input type="file" id="fileInput">
+        <p>Drag & drop or click to upload</p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="button-group">
+        <button onclick="getText()">Convert PDF to Markdown</button>
+        <button onclick="getSummary()">Summary</button>
+        <button onclick="getSentiment()">Sentiment</button>
+        <button onclick="getTopic()">Topics</button>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader" class="loader hidden"></div>
+
+    <!-- Result -->
+    <div class="result-container">
+        <h3>Result</h3>
+        <div id="result">The analysis will appear here...</div>
+
+        <!-- Back Button -->
+        <button id="backBtn" class="back-btn hidden" onclick="resetUI()">⬅ Back</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

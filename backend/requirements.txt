@@ -1,0 +1,33 @@
+# Core Framework
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+
+# Document Parsing & PDF Processing
+docling
+pymupdf  # (installed as fitz)
+python-docx
+python-pptx
+rapidocr-onnxruntime
+
+# AI, NLP & Sentiment Analysis
+openai
+transformers
+torch
+nltk
+scikit-learn
+joblib
+
+# Topic Modeling & Embeddings
+bertopic
+sentence-transformers
+umap-learn
+hdbscan
+numpy
+pandas
+scipy
+
+# Utilities
+pathlib
+uuid

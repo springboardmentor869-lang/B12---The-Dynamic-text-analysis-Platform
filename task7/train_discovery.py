@@ -1,108 +1,147 @@
 import os
 import json
 import time
-import requests
 import numpy as np
+import pandas as pd
+from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 import umap
 import hdbscan
 from bertopic import BERTopic
-from sklearn.datasets import fetch_20newsgroups
+from dotenv import load_dotenv
 
-#  Local LLM Setup (Ollama) ---
-# Ensure you have run: ollama run qwen2.5:1.5b
-OLLAMA_MODEL = "qwen2.5:1.5b"
-OLLAMA_URL = "http://localhost:11434/api/generate"
+# --- DATASET UTILITIES ---
+from sklearn.datasets import fetch_20newsgroups
+from datasets import load_dataset
+
+load_dotenv()
+
+# --- LLM CONFIGURATION ---
+# Using OpenRouter to provide human-readable labels for abstract mathematical clusters
+import os
+from openai import OpenAI
+
+# Update your client setup
+client = OpenAI(
+    base_url="https://api.x.ai/v1",  # <--- Change this to xAI's endpoint
+    api_key=os.getenv("GROK_API_KEY")
+)
 
 def get_llm_topic_label(keywords, rep_docs):
-    """Generates human-readable topic labels using Ollama (Mentor Requirement #4)"""
+    """Generates labels using Grok 4.1 Fast."""
     prompt = f"""
-    TASK: Generate a concise, human-readable label (2-4 words) for a topic based on these keywords and text.
+    TASK: Generate a concise, human-readable label (2-4 words) for a topic. Keep the label professional and academic.
     KEYWORDS: {', '.join(keywords)}
     REPRESENTATIVE TEXT: {rep_docs[0][:300]}...
     
-    Return ONLY the short label. No quotes, no explanations.
+    Return ONLY the short label.
     """
     try:
-        response = requests.post(
-            OLLAMA_URL,
-            json={"model": OLLAMA_MODEL, "prompt": prompt, "stream": False, "options": {"temperature": 0}},
-            timeout=60
+        response = client.chat.completions.create(
+            model="grok-4.1-fast", # <--- Use the 2026 high-speed model
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0
         )
-        return response.json().get("response", "").strip()
-    except Exception:
-        return " & ".join([k.capitalize() for k in keywords[:2]])
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"Grok Error: {e}")
+        return "Unknown Topic"
+
+def load_dynamic_mega_dataset():
+    """
+    NLP Phase: Data Ingestion & Diversification.
+    Combines '20 Newsgroups' (general world knowledge) with 'EDGAR' (corporate financial knowledge).
+    This ensures the 'Dynamic' platform can handle everything from sports to SEC filings.
+    """
+    print("1. Loading General Knowledge (News, Tech, Sports, etc.)...")
+    news_dataset = fetch_20newsgroups(subset='train', remove=('headers', 'footers', 'quotes'))
+    general_docs = [doc for doc in news_dataset.data if len(doc.strip()) > 50]
+    
+    print("2. Loading Corporate/Financial Knowledge...")
+    try:
+        # Pulling 3,000 sections from real SEC filings to teach the model financial jargon
+        fin_dataset = load_dataset("eloukas/edgar-corpus", "financial_section", split="train[:3000]")
+        financial_docs = [doc['text'] for doc in fin_dataset if len(doc['text']) > 50]
+    except Exception as e:
+        print(f"Warning: Could not load HuggingFace dataset. {e}")
+        financial_docs = []
+
+    # Merging both worlds into a single training corpus
+    combined_docs = general_docs + financial_docs
+    print(f"Total documents for dynamic training: {len(combined_docs)}")
+    
+    return combined_docs
 
 def main():
-    # #1: Dataset of ~1000 documents ---
-    print("Loading ~1000 diverse documents...")
-    dataset = fetch_20newsgroups(subset='all', remove=('headers', 'footers', 'quotes'), random_state=42)
-    docs = [doc for doc in dataset.data if len(doc.split()) > 20][:1000]
+    # Step 1: Load the mixed-domain corpus
+    docs = load_dynamic_mega_dataset()
 
-    print("\nConfiguring BERTopic pipeline (Mentor Requirement #2)...")
+    print("\nConfiguring BERTopic pipeline...")
     
-    # #2: Embedding, UMAP, HDBSCAN ---
-    embedding_model = SentenceTransformer("all-MiniLM-L6-v2") 
-
+    # Step 2: Embedding (Phase 1 & 2)
+    # Using 'all-mpnet-base-v2' - a powerful generalist model that understands context
+    embedding_model = SentenceTransformer("all-mpnet-base-v2") 
     
-    # FIX 1: Lower n_neighbors so UMAP looks for tiny, local patterns
-    umap_model = umap.UMAP(
-        n_neighbors=5, 
-        n_components=5, 
-        min_dist=0.0, 
-        metric='cosine', 
-        random_state=42
-    )
+    # Step 3: Dimensionality Reduction (UMAP)
+    # Squishes 768-dim vectors into 5-dim space while preserving semantic clumps
+    umap_model = umap.UMAP(n_neighbors=5, min_dist=0.01, metric='cosine', random_state=42)
     
-    # FIX 2: Lower cluster requirements and use 'leaf' to find micro-topics
+    # Step 4: Clustering (HDBSCAN)
+    # Identifies dense 'islands' of data points. min_cluster_size determines topic granularity.
     hdbscan_model = hdbscan.HDBSCAN(
-        min_cluster_size=5,       # If only 5 docs match, it's a topic (Prevents Topic -1)
-        min_samples=1,            # Be extremely forgiving
+        min_cluster_size=15, 
+        min_samples=5, 
         metric='euclidean', 
-        cluster_selection_method='leaf', # Forces discovery of small clusters
+        cluster_selection_method='eom', 
         prediction_data=True
     )
-
-    # --- MENTOR REQUIREMENT #3: Train and Reduce to 40 topics ---
-    print("\nTraining initial model...")
+    
+    # Step 5: The BERTopic Wrapper
+    # nr_topics="auto" allows the model to naturally discover the number of themes
+    print("\nTraining model and dynamically finding topics...")
     topic_model = BERTopic(
         embedding_model=embedding_model,
         umap_model=umap_model,
         hdbscan_model=hdbscan_model,
+        nr_topics=40, 
         verbose=True
     )
 
-    topics, probs = topic_model.fit_transform(docs)
-    
-    print(f"Initial clusters found: {len(topic_model.get_topic_info()) - 1}")
-    print("Forcing reduction to 40 topics...")
-    topic_model.reduce_topics(docs, nr_topics=40)
-
+    # Execute the training pipeline
+    topics, probabilities = topic_model.fit_transform(docs)
     topic_info = topic_model.get_topic_info()
     
-    print("\nGenerating LLM Labels and Computing Centroids (Mentor Requirement #4 & #5)...")
+    print(f"\nModel trained! Active topics found: {len(topic_info) - 1}")
+    print("Generating LLM Labels and Computing Centroids...")
+    
     topic_mapping = {}
     centroids = {}
 
+    # Step 6: Post-Processing Artifacts
+    # We iterate through the discovered clusters to create our 'Inference Map'
     for index, row in topic_info.iterrows():
         topic_id = row['Topic']
-        if topic_id == -1: continue
+        if topic_id == -1:
+            continue # Topic -1 is the 'Noise' cluster (outliers)
 
-        # Get keywords and representative docs for the LLM
+        # Retrieve top keywords (via C-TF-IDF) and the best examples of this topic
         top_words = [word for word, score in topic_model.get_topic(topic_id)[:5]]
         rep_docs = topic_model.get_representative_docs(topic_id)
         
-        # Labeling via local AI
-        label = get_llm_topic_label(top_words, rep_docs)
-        topic_mapping[str(topic_id)] = label
-        print(f"Topic {topic_id}: {label}")
-
-        #  #5: Compute Centroids (Avg Embeddings) ---
+        # Call LLM to give the cluster a name (e.g., 'Annual Financial Results')
+        human_label = get_llm_topic_label(top_words, rep_docs)
+        topic_mapping[str(topic_id)] = human_label
+        print(f"Topic {topic_id}: {human_label}")
+        time.sleep(4) # Rate limiting for OpenRouter free tier
+        
+        # Calculate the mathematical 'Center' (Centroid) of the topic island
+        # This allows for lightning-fast matching in the backend later
         rep_embeddings = embedding_model.encode(rep_docs)
         centroid = np.mean(rep_embeddings, axis=0)
         centroids[str(topic_id)] = centroid.tolist()
 
-    # : Save Artifacts in models/ ---
+    # Step 7: Save Results
+    # These artifacts allow the FastAPI backend to run without re-training the whole model
     print("\nSaving artifacts to models/ directory...")
     os.makedirs("models", exist_ok=True)
     
@@ -112,7 +151,7 @@ def main():
     with open("models/topic_centroids.json", "w", encoding="utf-8") as f:
         json.dump(centroids, f)
 
-    print("✅ Offline Training Complete!")
+    print("Offline Training Complete! Model artifacts are ready for inference.")
 
 if __name__ == "__main__":
     main()

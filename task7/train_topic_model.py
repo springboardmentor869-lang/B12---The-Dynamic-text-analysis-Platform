@@ -12,11 +12,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# --- MENTOR REQUIREMENT: LLM Labeling Setup ---
 client = OpenAI(
-    base_url="https://openrouter.ai/api/v1", 
+    base_url="https://openrouter.ai/api/v1",
     api_key=os.getenv("OPENROUTER_API_KEY"),
-    default_headers={"HTTP-Referer": "http://localhost:3000", "X-Title": "MarineInsight Topic Modeler"}
+    default_headers={"HTTP-Referer": "http://localhost:3000"}
 )
 
 def get_llm_topic_label(keywords, rep_docs):
@@ -40,12 +39,11 @@ def get_llm_topic_label(keywords, rep_docs):
         return "Unknown Topic"
 
 def load_custom_dataset(csv_path):
-    """MENTOR REQUIREMENT: Create a custom dataset containing text of around 1000 different documents."""
     print(f"Loading custom data from {csv_path}...")
     df = pd.read_csv(csv_path, header=None, names=['sentiment', 'text'], encoding='latin-1')
     
     docs = df['text'].dropna().astype(str).tolist()
-    docs = docs[:1000] # Strictly enforce the ~1000 documents rule
+    docs = docs[:1000]
     
     print(f"Loaded {len(docs)} documents for training.")
     return docs
@@ -54,8 +52,6 @@ def main():
     docs = load_custom_dataset("financial.csv")
 
     print("\nConfiguring BERTopic pipeline...")
-    
-    # --- MENTOR REQUIREMENT: Configure Embedding, UMAP, HDBSCAN ---
     embedding_model = SentenceTransformer("all-MiniLM-L6-v2") 
     umap_model = umap.UMAP(n_neighbors=5, min_dist=0.01, metric='cosine', random_state=42)
     hdbscan_model = hdbscan.HDBSCAN(
@@ -65,8 +61,6 @@ def main():
         cluster_selection_method='eom', 
         prediction_data=True
     )
-
-    # --- MENTOR REQUIREMENT: Train model, reduce to 40 topics ---
     print("\nTraining model and reducing to 40 topics...")
     topic_model = BERTopic(
         embedding_model=embedding_model,
@@ -99,12 +93,11 @@ def main():
         print(f"Topic {topic_id}: {human_label}")
         time.sleep(4) # Respect OpenRouter rate limits
         
-        # --- MENTOR REQUIREMENT: Compute centroids (average embeddings of representative docs) ---
         rep_embeddings = embedding_model.encode(rep_docs)
         centroid = np.mean(rep_embeddings, axis=0)
         centroids[str(topic_id)] = centroid.tolist()
 
-    # --- MENTOR REQUIREMENT: Saved model artifacts in models/ ---
+    print("\nSaving artifacts to models/ directory...")
     print("\nSaving artifacts to models/ directory...")
     os.makedirs("models", exist_ok=True)
     

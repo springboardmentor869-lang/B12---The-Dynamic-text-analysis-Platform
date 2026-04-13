@@ -238,26 +238,29 @@ B12---The-Dynamic-text-analysis-Platform/
 ```
 Raw Documents (PDF, DOCX, PPTX, etc.)
            ↓
-    Document Parsing (Task 3)
+   Document Parsing (Task 3)
+ [Docling + PyMuPDF Fallback]
+           │
+           ├──────────────────────────────────────────┐
+           │                                          │
+           ↓                                          ↓
+  Raw, Formatted Text                     [Archived / Standalone Utility]
+(Maintains natural grammar)                 Text Preprocessing (Task 4)
+           │                               (Not used in current pipeline)
+           │
+   ┌───────┼──────────────┐                              
+   ↓       ↓              ↓                              
+ Task 5   Task 6        Task 7
+(Summ.)  (Sent.)       (Topic)
+ [LLM]  [FinBERT]    [BERTopic]
+   │       │              │                              
+   └───────┼──────────────┘
            ↓
-    Text Preprocessing (Task 4)
-           ├→ Tokenization
-           ├→ Stopword Removal
-           └→ Normalization
+   REST API (FastAPI Backend)
            ↓
-    ┌─────────────────────────────┐
-    │   Analysis Modules          │
-    ├─────────────────────────────┤
-    │ • Summarization (Task 5)    │
-    │ • Sentiment Analysis (Task 6)│
-    │ • Topic Modeling (Task 7)   │
-    └─────────────────────────────┘
+   Web Interface (React Frontend)
            ↓
-    REST API (FastAPI Backend)
-           ↓
-    Web Interface (React Frontend)
-           ↓
-    Results & Insights
+   Results, Dashboards & Insights
 ```
 
 ## Core Features in Detail
@@ -276,7 +279,6 @@ Raw Documents (PDF, DOCX, PPTX, etc.)
 - **Custom Tooltips**: Interactive hover information for detailed insights
 - **PDF Export**: All visualizations included in exported reports
 
-For detailed visualization documentation, see [VISUALIZATIONS.md](VISUALIZATIONS.md)
 
 ### 🧠 Intelligent Analysis
 - **Sentiment Analysis**: LLM-powered sentiment detection with concurrent processing

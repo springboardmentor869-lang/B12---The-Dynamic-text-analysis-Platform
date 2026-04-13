@@ -21,11 +21,7 @@ LEMMATIZER = WordNetLemmatizer()
 STOP_WORDS = set(stopwords.words('english'))
 CLEAN_PATTERN = re.compile(r'[^a-zA-Z\s]')
 
-# --- INPUT: Financial Document ---
-with open(r'..\processed_data\financial doc.md', 'r', encoding='utf-8') as file:
-    financial_text = file.read()
-
-def preprocess_financial_data(text):
+def preprocess_data(text):
     """
     Preprocessing pipeline for financial documents.
     Args:
@@ -48,42 +44,47 @@ def preprocess_financial_data(text):
     
     return filtered_tokens, stemmed_version, lemmatized_version
 
-clean_tokens, stemmed, lemmatized = preprocess_financial_data(financial_text)
+if __name__ == "__main__":
+    # --- INPUT: Financial Document ---
+    with open(r'..\processed_data\financial doc.md', 'r', encoding='utf-8') as file:
+        financial_text = file.read()
 
-print(f"ORIGINAL (Filtered): {clean_tokens[:10]}...")
-print("-" * 50)
-print(f"VERSION A (Stemming):     {stemmed[:10]}...")
-print(f"VERSION B (Lemmatization):{lemmatized[:10]}...")
+    clean_tokens, stemmed, lemmatized = preprocess_data(financial_text)
+
+    print(f"ORIGINAL (Filtered): {clean_tokens[:10]}...")
+    print("-" * 50)
+    print(f"VERSION A (Stemming):     {stemmed[:10]}...")
+    print(f"VERSION B (Lemmatization):{lemmatized[:10]}...")
 
 
-print("\n--- SPECIFIC DIFFERENCES ---")
-token_to_indices = {word: [] for word in clean_tokens}
-for idx, word in enumerate(clean_tokens):
-    token_to_indices[word].append(idx)
+    print("\n--- SPECIFIC DIFFERENCES ---")
+    token_to_indices = {word: [] for word in clean_tokens}
+    for idx, word in enumerate(clean_tokens):
+        token_to_indices[word].append(idx)
 
-words_to_check = ["balanced", "financial", "grew", "cash", "accounting" , "years", "profit", "loss", "assets", "liabilities"]
-for word in words_to_check:
-    if word in token_to_indices:
-        idx = token_to_indices[word][0]  # Get first occurrence
-        print(f"Word: {word:12} | Stem: {stemmed[idx]:12} | Lemma: {lemmatized[idx]}")
+    words_to_check = ["balanced", "financial", "grew", "cash", "accounting" , "years", "profit", "loss", "assets", "liabilities"]
+    for word in words_to_check:
+        if word in token_to_indices:
+            idx = token_to_indices[word][0]  # Get first occurrence
+            print(f"Word: {word:12} | Stem: {stemmed[idx]:12} | Lemma: {lemmatized[idx]}")
 
-# --- OUTPUT: Write stemming and lemmatization results to separate .md files ---
+    # --- OUTPUT: Write stemming and lemmatization results to separate .md files ---
 
-# Create Stemming Results
-stemming_text = " ".join(stemmed)
-stemming_output = "# Stemming Results\n\n"
-stemming_output += stemming_text
+    # Create Stemming Results
+    stemming_text = " ".join(stemmed)
+    stemming_output = "# Stemming Results\n\n"
+    stemming_output += stemming_text
 
-with open(r'stemming_results.md', 'w', encoding='utf-8') as file:
-    file.write(stemming_output)
+    with open(r'stemming_results.md', 'w', encoding='utf-8') as file:
+        file.write(stemming_output)
 
-# Create Lemmatization Results
-lemmatization_text = " ".join(lemmatized)
-lemmatization_output = "# Lemmatization Results\n\n"
-lemmatization_output += lemmatization_text
+    # Create Lemmatization Results
+    lemmatization_text = " ".join(lemmatized)
+    lemmatization_output = "# Lemmatization Results\n\n"
+    lemmatization_output += lemmatization_text
 
-with open(r'lemmatization_results.md', 'w', encoding='utf-8') as file:
-    file.write(lemmatization_output)
+    with open(r'lemmatization_results.md', 'w', encoding='utf-8') as file:
+        file.write(lemmatization_output)
 
-print("\n✓ Stemming results saved to: processed_data/stemming_results.md")
-print("✓ Lemmatization results saved to: processed_data/lemmatization_results.md")
+    print("\n✓ Stemming results saved to: processed_data/stemming_results.md")
+    print("✓ Lemmatization results saved to: processed_data/lemmatization_results.md")

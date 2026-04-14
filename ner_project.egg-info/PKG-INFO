@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ner-project
+Version: 0.1.0
+Summary: Dynamic Text analyzer
+Requires-Python: >=3.11
+Requires-Dist: bertopic>=0.17.4
+Requires-Dist: docling
+Requires-Dist: google-genai>=1.62.0
+Requires-Dist: google-generativeai
+Requires-Dist: numpy>=2.4.2
+Requires-Dist: openai>=2.17.0
+Requires-Dist: python-dotenv
+Requires-Dist: scikit-learn>=1.8.0
+Requires-Dist: sentence-transformers>=5.2.3

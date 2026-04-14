@@ -1,0 +1,9 @@
+bertopic>=0.17.4
+docling
+google-genai>=1.62.0
+google-generativeai
+numpy>=2.4.2
+openai>=2.17.0
+python-dotenv
+scikit-learn>=1.8.0
+sentence-transformers>=5.2.3

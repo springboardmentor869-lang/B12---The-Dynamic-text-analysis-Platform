@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #e6ebf5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background: #f8f9fd;
+  padding: 30px;
+  border-radius: 18px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Upload Box */
+.upload-box {
+  border: 2px dashed #ccc;
+
+  height: 80px;     
+  padding: 30px;          
+
+  margin: 15px 0;
+  border-radius: 12px;
+  background: #fafafa;
+
+  /* 👇 center content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.file-name {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Success text */
+.success {
+  color: green;
+  font-size: 14px;
+}
+
+/* Dropdown */
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #6c63ff, #5a54e6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Output box */
+.output {
+  margin-top: 15px;
+  background: #ececec;
+  padding: 12px;
+  border-radius: 10px;
+  max-height: 180px;
+  overflow: auto;
+  text-align: left;
+  white-space: pre-wrap;
+}

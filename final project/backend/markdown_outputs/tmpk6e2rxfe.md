@@ -1,0 +1,5 @@
+Task 2 Sample PDF
+This is a sample PDF document created for Task 2 of the project. It is used to test the document
+conversion module.
+The module should extract text from this PDF and convert it into TXT and Markdown formats
+successfully.

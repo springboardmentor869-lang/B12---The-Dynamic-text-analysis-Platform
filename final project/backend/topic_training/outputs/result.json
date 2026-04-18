@@ -1,0 +1,187 @@
+{
+    "file": "D:\\Desktop\\dynamic_text_analysis\\backend\\topic_training\\markdown_outputs\\sample.md",
+    "dominant_topic": {
+        "topic_id": 0,
+        "label": "artificial intelligence machine",
+        "avg_similarity_score": 0.5337,
+        "chunks_matched": 6,
+        "total_chunks": 17
+    },
+    "all_topics_found": [
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "chunks_matched": 6,
+            "avg_score": 0.5337
+        },
+        {
+            "topic_id": 13,
+            "label": "climate policies change",
+            "chunks_matched": 3,
+            "avg_score": 0.5269
+        },
+        {
+            "topic_id": 15,
+            "label": "energy renewable markets",
+            "chunks_matched": 2,
+            "avg_score": 0.4957
+        },
+        {
+            "topic_id": 1,
+            "label": "stock financial institutions",
+            "chunks_matched": 1,
+            "avg_score": 0.7031
+        },
+        {
+            "topic_id": 4,
+            "label": "education online platforms",
+            "chunks_matched": 1,
+            "avg_score": 0.6547
+        },
+        {
+            "topic_id": 3,
+            "label": "blockchain networks are",
+            "chunks_matched": 1,
+            "avg_score": 0.6258
+        },
+        {
+            "topic_id": 22,
+            "label": "cryptocurrency platforms are",
+            "chunks_matched": 1,
+            "avg_score": 0.5134
+        },
+        {
+            "topic_id": 9,
+            "label": "medical research growth",
+            "chunks_matched": 1,
+            "avg_score": 0.4862
+        },
+        {
+            "topic_id": -1,
+            "label": "Out of Domain",
+            "chunks_matched": 1,
+            "avg_score": 0.2922
+        }
+    ],
+    "chunk_details": [
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "score": 0.6918,
+            "preview": "Artificial intelligence has become one of the most transformative technologies of the twenty-first century. Over the past decade, organizations across the world have increasingly adopted machine learning and data-driven",
+            "chunk_text": "Artificial intelligence has become one of the most transformative technologies of the twenty-first century. Over the past decade, organizations across the world have increasingly adopted machine learning and data-driven systems to improve efficiency and decision making. Artificial intelligence refers to computer systems that are capable of performing tasks that normally require human intelligence such as recognizing speech, identifying patterns, solving problems, and learning from experience."
+        },
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "score": 0.4557,
+            "preview": "ire human intelligence such as recognizing speech, identifying patterns, solving problems, and learning from experience. With the rise of big data and cloud computing infrastructure, companies are now able to train large",
+            "chunk_text": "ire human intelligence such as recognizing speech, identifying patterns, solving problems, and learning from experience. With the rise of big data and cloud computing infrastructure, companies are now able to train large machine learning models on massive datasets, enabling them to detect patterns that humans might overlook. One of the most popular applications of artificial intelligence is recommendation systems. Platforms such as streaming services and online shopping websites analyze user behavior to recommend movies, products, or music based on individual preferences. These systems rely on machine learning algorithms that study historical data and learn patterns in customer interactions."
+        },
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "score": 0.5448,
+            "preview": "hese systems rely on machine learning algorithms that study historical data and learn patterns in customer interactions. Over time, the algorithms become more accurate and can personalize user experiences in ways that si",
+            "chunk_text": "hese systems rely on machine learning algorithms that study historical data and learn patterns in customer interactions. Over time, the algorithms become more accurate and can personalize user experiences in ways that significantly increase engagement and satisfaction. Businesses benefit from this technology because it allows them to better understand their customers and deliver more relevant services. Another important field where artificial intelligence plays a major role is healthcare. Medical professionals are using machine learning models to assist in diagnosing diseases and predicting patient outcomes."
+        },
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "score": 0.419,
+            "preview": "edical professionals are using machine learning models to assist in diagnosing diseases and predicting patient outcomes. Deep learning systems can analyze medical images such as X-rays and MRI scans with high levels of a",
+            "chunk_text": "edical professionals are using machine learning models to assist in diagnosing diseases and predicting patient outcomes. Deep learning systems can analyze medical images such as X-rays and MRI scans with high levels of accuracy. These systems help doctors detect abnormalities at earlier stages, improving the chances of successful treatment. Hospitals also use predictive analytics to manage patient flow, reduce waiting times, and allocate resources more efficiently. As technology continues to advance, AI-powered healthcare tools may become essential components of modern medical practice."
+        },
+        {
+            "topic_id": 9,
+            "label": "medical research growth",
+            "score": 0.4862,
+            "preview": "technology continues to advance, AI-powered healthcare tools may become essential components of modern medical practice. While artificial intelligence is transforming many industries, space exploration is another area ex",
+            "chunk_text": "technology continues to advance, AI-powered healthcare tools may become essential components of modern medical practice. While artificial intelligence is transforming many industries, space exploration is another area experiencing rapid technological progress. Over the past few decades, both government agencies and private companies have invested heavily in developing advanced spacecraft and launch systems. The rise of private space companies has dramatically changed the landscape of the space industry. Companies are designing reusable rockets that can land safely back on Earth after launch, significantly reducing the cost of sending satellites and cargo into orbit."
+        },
+        {
+            "topic_id": -1,
+            "label": "Out of Domain",
+            "score": 0.2922,
+            "preview": "can land safely back on Earth after launch, significantly reducing the cost of sending satellites and cargo into orbit. Reusable rocket technology has made space missions more affordable and frequent. This innovation all",
+            "chunk_text": "can land safely back on Earth after launch, significantly reducing the cost of sending satellites and cargo into orbit. Reusable rocket technology has made space missions more affordable and frequent. This innovation allows engineers to recover and reuse rocket boosters instead of discarding them after a single launch. As a result, companies can launch satellites, scientific instruments, and communication devices more efficiently than ever before. Many organizations are also planning ambitious missions to the Moon and Mars in the coming decades. These missions aim to establish sustainable human presence beyond Earth and expand humanity\u2019s understanding of the solar system."
+        },
+        {
+            "topic_id": 13,
+            "label": "climate policies change",
+            "score": 0.3917,
+            "preview": "ssions aim to establish sustainable human presence beyond Earth and expand humanity\u2019s understanding of the solar system. Satellites launched into orbit play a crucial role in modern society. They enable global communicat",
+            "chunk_text": "ssions aim to establish sustainable human presence beyond Earth and expand humanity\u2019s understanding of the solar system. Satellites launched into orbit play a crucial role in modern society. They enable global communication networks, weather forecasting systems, and navigation services such as GPS. Earth observation satellites monitor environmental changes, track natural disasters, and collect valuable scientific data about the planet. This information helps researchers study climate patterns and improve disaster response strategies."
+        },
+        {
+            "topic_id": 13,
+            "label": "climate policies change",
+            "score": 0.643,
+            "preview": "ta about the planet. This information helps researchers study climate patterns and improve disaster response strategies. Satellite technology has also enabled global internet connectivity, allowing remote regions to acce",
+            "chunk_text": "ta about the planet. This information helps researchers study climate patterns and improve disaster response strategies. Satellite technology has also enabled global internet connectivity, allowing remote regions to access high-speed communication networks that were previously unavailable. Climate change is another major global issue that scientists and policymakers are actively studying. Rising global temperatures, melting polar ice caps, and increasing sea levels are clear indicators of environmental change. Human activities such as burning fossil fuels and deforestation have contributed significantly to the increase in greenhouse gases in the atmosphere."
+        },
+        {
+            "topic_id": 13,
+            "label": "climate policies change",
+            "score": 0.5461,
+            "preview": "ing fossil fuels and deforestation have contributed significantly to the increase in greenhouse gases in the atmosphere. These gases trap heat and cause the Earth's temperature to rise, leading to changes in weather patt",
+            "chunk_text": "ing fossil fuels and deforestation have contributed significantly to the increase in greenhouse gases in the atmosphere. These gases trap heat and cause the Earth's temperature to rise, leading to changes in weather patterns and ecosystems. In response to climate change, many countries are investing in renewable energy technologies. Solar power, wind energy, and hydroelectric systems provide cleaner alternatives to traditional fossil fuels. These renewable energy sources generate electricity without releasing large amounts of carbon dioxide into the atmosphere."
+        },
+        {
+            "topic_id": 15,
+            "label": "energy renewable markets",
+            "score": 0.5371,
+            "preview": "ese renewable energy sources generate electricity without releasing large amounts of carbon dioxide into the atmosphere. Governments and businesses are also exploring new methods of energy storage and distribution to imp",
+            "chunk_text": "ese renewable energy sources generate electricity without releasing large amounts of carbon dioxide into the atmosphere. Governments and businesses are also exploring new methods of energy storage and distribution to improve the reliability of renewable power systems. Electric vehicles are becoming more common as manufacturers develop more efficient batteries and charging infrastructure. Environmental sustainability has become a major focus for global organizations. Companies are adopting greener manufacturing processes and reducing waste in order to minimize their environmental impact."
+        },
+        {
+            "topic_id": 15,
+            "label": "energy renewable markets",
+            "score": 0.4543,
+            "preview": "mpanies are adopting greener manufacturing processes and reducing waste in order to minimize their environmental impact. Sustainable development aims to balance economic growth with environmental protection and social we",
+            "chunk_text": "mpanies are adopting greener manufacturing processes and reducing waste in order to minimize their environmental impact. Sustainable development aims to balance economic growth with environmental protection and social well-being. Researchers are studying ways to design cities that are more energy efficient and environmentally friendly. Urban planners are exploring concepts such as smart cities, green buildings, and sustainable transportation networks to improve quality of life while protecting natural resources. Economic and financial systems are also evolving rapidly in response to technological innovation."
+        },
+        {
+            "topic_id": 1,
+            "label": "stock financial institutions",
+            "score": 0.7031,
+            "preview": "ing natural resources. Economic and financial systems are also evolving rapidly in response to technological innovation. Financial markets play a vital role in supporting economic development by allowing businesses to ra",
+            "chunk_text": "ing natural resources. Economic and financial systems are also evolving rapidly in response to technological innovation. Financial markets play a vital role in supporting economic development by allowing businesses to raise capital and investors to allocate resources efficiently. Stock exchanges provide platforms where companies can sell shares to investors in order to fund expansion and new projects. Investors participate in these markets in hopes of generating financial returns based on company performance and market trends. In recent years, financial technology, often referred to as fintech, has transformed how people interact with financial services."
+        },
+        {
+            "topic_id": 22,
+            "label": "cryptocurrency platforms are",
+            "score": 0.5134,
+            "preview": "years, financial technology, often referred to as fintech, has transformed how people interact with financial services. Mobile banking applications allow customers to transfer money, pay bills, and manage accounts direct",
+            "chunk_text": "years, financial technology, often referred to as fintech, has transformed how people interact with financial services. Mobile banking applications allow customers to transfer money, pay bills, and manage accounts directly from their smartphones. Online payment platforms enable businesses and consumers to complete transactions quickly and securely without relying on traditional banking systems. These digital solutions have improved accessibility to financial services, especially in regions where physical bank branches are limited. Cryptocurrencies and blockchain technology have introduced new possibilities for decentralized financial systems."
+        },
+        {
+            "topic_id": 3,
+            "label": "blockchain networks are",
+            "score": 0.6258,
+            "preview": "mited. Cryptocurrencies and blockchain technology have introduced new possibilities for decentralized financial systems. Blockchain is a distributed ledger technology that records transactions across multiple computers i",
+            "chunk_text": "mited. Cryptocurrencies and blockchain technology have introduced new possibilities for decentralized financial systems. Blockchain is a distributed ledger technology that records transactions across multiple computers in a secure and transparent manner. Cryptocurrencies such as Bitcoin and Ethereum operate on blockchain networks and allow users to transfer digital assets without intermediaries such as banks. While these technologies offer innovative opportunities, they also raise regulatory and security challenges that governments and financial institutions are still addressing. Education systems are also adapting to technological advancements."
+        },
+        {
+            "topic_id": 4,
+            "label": "education online platforms",
+            "score": 0.6547,
+            "preview": "ents and financial institutions are still addressing. Education systems are also adapting to technological advancements. Online learning platforms have become increasingly popular, allowing students to access educational",
+            "chunk_text": "ents and financial institutions are still addressing. Education systems are also adapting to technological advancements. Online learning platforms have become increasingly popular, allowing students to access educational resources from anywhere in the world. Virtual classrooms, interactive simulations, and digital textbooks have expanded the possibilities of modern education. Technology enables educators to personalize learning experiences and provide immediate feedback to students. As artificial intelligence becomes integrated into education, intelligent tutoring systems may help students learn more effectively by adapting lessons to individual needs."
+        },
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "score": 0.4807,
+            "preview": "ducation, intelligent tutoring systems may help students learn more effectively by adapting lessons to individual needs. The rapid pace of technological innovation highlights the importance of responsible development and",
+            "chunk_text": "ducation, intelligent tutoring systems may help students learn more effectively by adapting lessons to individual needs. The rapid pace of technological innovation highlights the importance of responsible development and ethical considerations. As artificial intelligence systems become more powerful, concerns about privacy, bias, and transparency have become increasingly important. Developers must ensure that algorithms are fair, unbiased, and accountable. Governments and international organizations are working to establish guidelines and regulations that promote ethical AI practices while encouraging innovation."
+        },
+        {
+            "topic_id": 0,
+            "label": "artificial intelligence machine",
+            "score": 0.61,
+            "preview": "ions are working to establish guidelines and regulations that promote ethical AI practices while encouraging innovation. Ultimately, the combination of artificial intelligence, space exploration, environmental sustainabi",
+            "chunk_text": "ions are working to establish guidelines and regulations that promote ethical AI practices while encouraging innovation. Ultimately, the combination of artificial intelligence, space exploration, environmental sustainability, and financial technology represents a powerful wave of global transformation. These technologies have the potential to reshape economies, improve quality of life, and expand humanity\u2019s capabilities beyond what was previously imaginable. By carefully managing these innovations and addressing their associated challenges, societies can harness the benefits of technological progress while minimizing potential risks."
+        }
+    ]
+}

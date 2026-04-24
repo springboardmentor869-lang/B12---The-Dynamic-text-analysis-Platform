@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+requests
+torch
+sentence-transformers
+bertopic
+umap-learn
+scikit-learn
+tqdm
+python-multipart

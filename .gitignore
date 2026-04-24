@@ -1,2 +1,8 @@
 venv/
 venvd/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large models
+topic_modelling/models/bertopic_model

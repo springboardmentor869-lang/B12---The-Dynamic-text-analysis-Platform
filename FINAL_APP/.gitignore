@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environment ---
+venv/
+.venv/
+ENV/
+
+# --- Environment variables ---
+.env
+
+# --- Specific to FINAL_APP ---
+# Large datasets (ignored as requested)
+backend/data/
+
+# AI/ML Models
+# Note: The bertopic_model is ~90MB. 
+# It is ignored here because it exceeds the recommended 50MB limit for Git.
+backend/storage/models/bertopic_model
+
+# Temporary storage
+backend/storage/outputs/
+backend/storage/uploads/
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db

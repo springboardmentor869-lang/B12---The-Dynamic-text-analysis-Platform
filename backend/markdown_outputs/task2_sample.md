@@ -1,0 +1,9 @@
+# Converted Document
+
+Task 2 Sample DOCX
+
+This is a sample DOCX document created for Task 2.
+
+It is intended to verify DOCX to TXT and Markdown conversion.
+
+Successful conversion confirms the working of the document conversion module.

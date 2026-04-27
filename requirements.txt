@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-multipart
+pymupdf
+python-docx
+pillow
+pytesseract
+transformers
+torch
+pandas
+numpy
+bertopic
+sentence-transformers
+umap-learn
+hdbscan
+requests
+python-dotenv

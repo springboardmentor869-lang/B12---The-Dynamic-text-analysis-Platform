@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Classification — DocuSense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="home.html">Docu<span>Sense</span></a>
+    </nav>
+
+    <div class="container">
+        <h2 class="page-title">Topic Classification</h2>
+
+        <div class="main-box">
+            <!-- Upload -->
+            <div class="box upload-box">
+                <h3>Upload Document</h3>
+                <label for="fileInput" class="file-drop">
+                    <div class="drop-icon">📂</div>
+                    <span>Click to browse or drop a file</span>
+                    <span style="font-size:0.78rem; color:#9ca3af;">.pdf or .docx</span>
+                    <input type="file" id="fileInput" accept=".pdf,.docx">
+                </label>
+                <div class="file-name-display" id="fileNameDisplay"></div>
+                <button onclick="uploadAndClassify()">Run Classification</button>
+            </div>
+
+            <!-- Output Box -->
+            <div class="box output-box">
+                <h3>Result</h3>
+                <div id="output">
+    
+                    <div>
+                        <strong>File</strong>
+                        <p id = "file_name">...</p>
+                    </div>
+
+                    <div>
+                        <strong>Topic</strong>
+                        <p id = "topic_label">...</p>
+                    </div>
+
+                    <div>
+                        <strong>Confidence</strong>
+                        <p id = "confidence">...</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <a href="/static/home.html" class="back-link">← Back to Home</a>
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarization — DocuSense</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-brand" href="/static/home.html">Docu<span>Sense</span></a>
+    </nav>
+
+    <div class="container">
+        <h2 class="page-title">Summarization</h2>
+
+        <div class="main-box">
+            <!-- Upload -->
+            <div class="box upload-box">
+                
+                <h3>Upload Document</h3>
+
+                <label for="fileInput" class="file-drop">
+                    <div class="drop-icon">📂</div>
+                    <span>Click to browse or drop a file</span>
+                    <span style="font-size:0.78rem; color:#9ca3af;">.pdf or .docx</span>
+                    <input type="file" id="fileInput" accept=".pdf,.docx">
+                </label>
+                <div class="file-name-display" id="fileNameDisplay"></div>
+                <button onclick="uploadAndSummarize()">Generate Summary</button>
+            </div>
+
+            <!-- Output Box -->
+            <div class="box output-box">
+                <h3>Result</h3>
+                <div id="output">
+
+                    <div>
+                        <strong>File</strong>
+                        <p id="summary_file">...</p>
+                    </div>
+
+                    <div>
+                        <strong>Summary</strong>
+                        <p id="summary_text">...</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="/static/home.html" class="back-link">← Back to Home</a>
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

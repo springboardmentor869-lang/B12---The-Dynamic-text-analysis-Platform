@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Documents — DocuSense</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-brand" href="/static/home.html">Docu<span>Sense</span></a>
+    </nav>
+
+    <div class="container">
+        <h2 class="page-title">Convert PDF to Markdown</h2>
+
+        <div class="main-box">
+            <!-- Upload -->
+            <div class="box upload-box">
+
+                <h3>Upload Document</h3>
+
+                <label for="fileInput" class="file-drop">
+                    <div class="drop-icon">📂</div>
+                    <span>Click to browse or drop a file</span>
+                    <span style="font-size:0.78rem; color:#9ca3af;">.pdf only</span>
+                    <input type="file" id="fileInput" accept=".pdf">
+                </label>
+                <div class="file-name-display" id="fileNameDisplay"></div>
+                <button onclick="uploadAndConvert()">Convert PDF</button>
+            </div>
+
+            <!-- Output Box -->
+            <div class="box output-box">
+                <h3>Result</h3>
+                <div id="output">Output will appear here...</div>
+                <!--<div id="downloadButtons" style="margin-top: 10px;">
+                    <button id="downloadMD">Download Markdown</button>
+                    <button id="downloadTXT">Download Text</button>
+                </div>-->
+            </div>
+
+        </div>
+
+        <a href="/static/home.html" class="back-link">← Back to Home</a>
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

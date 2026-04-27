@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+env/
+venv/
+*.env
+
+# Python caches / bytecode
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Project data
+results/
+models/
+topic_dataset.csv
